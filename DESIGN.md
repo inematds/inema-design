@@ -30,6 +30,9 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 ### Tokens, não hex solto
 - Cor só por variável CSS; claro/escuro trocando o valor da mesma variável. (SK/projetos-landing-guia/SKILL.md:121)
 
+### Fonte (V4, 10/10/2026)
+- Título de toda página nova (guia e cursos v2/v5/v6): **Sora**. Corpo: **Inter**. Código: JetBrains Mono. Serifada não entra mais em título.
+
 ### Amarelo INEMA `#FACC15` (V1 + V3, 10/10/2026)
 - **Cor de marca única** de guia e de todo curso novo (v2, v5, v6). Menta, verde e ocre saem como acento.
 - **Fundo escuro:** o amarelo pode ser letra (destaque de título, link, rótulo) e fundo de botão (letra `#1a1206`).
@@ -82,14 +85,14 @@ Dono: SK/formato-curso-v2 (SKILL.md, DESIGN-SYSTEM.md).
 - Sky `#38bdf8` = link INEMA.CLUB e cor secundária dos SVG. (SKILL:202,205)
 - Cor por trilha: T1 emerald, T2 blue, T3 purple, T4 amber, T5 teal, T6 rose. (SKILL:188-195)
 - Temas: sépia `#FBF0D9`/`#5F4B32`; alto contraste `#0A0E14`/`#F5F7FA`; claro sem gradiente. (DS:306,378-381)
-- Fonte: Inter. Botões à esquerda; numeração em círculo; SVG futurista 1 por módulo. (SKILL:140-155,255)
+- Fonte: títulos **Sora** (V4, 10/10/2026; antes Inter), corpo Inter. Botões à esquerda; numeração em círculo; SVG futurista 1 por módulo. (SKILL:140-155,255)
 
 ## 4. Linha Curso v5 ("dark editorial", 40+)
 Dono: SK/formato-curso-v5 (assets/aula.css, V5-DESIGN.md).
 - Escuro: bg `#0c0c10` (V2, 10/10/2026; antes `#0E0D14`), bg2 `#15131d`, painel `#1a1824`, tinta `#ECE6D9`, secundário `#948DA6`, fraco `#6C6580`, linha `#2A2637`.
 - Acento amarelo `#FACC15` (V3, 10/10/2026; antes menta `#7CE0C6`, dim `#4FB79E`); atenção `--warm #F2B45C`; erro `#E0736F`. Papel e sépia seguem a regra "amarelo em fundo claro" do núcleo.
 - Papel: `#F6F1E7` / tinta `#2A2620` / acento `#0F7A61` / warm `#9A6310`. Sépia: `#ECE0C9` / `#43331F` / `#0F6E58` / `#8A5A12`.
-- Fontes: **Newsreader** (títulos, números), Inter (texto), Space Mono (rótulos). Leitura 60ch.
+- Fontes: **Sora** em títulos e números (V4, 10/10/2026; antes Newsreader), Inter (texto), Space Mono (rótulos). Leitura 60ch.
 - Ícones: até 10, só CSS, nunca decorativos (troféu, medalha, confete, mascote proibidos). (V5-DESIGN.md:22,68)
 
 ## 5. Linha Curso v6 ("papel", iniciante 30+)
@@ -106,7 +109,7 @@ Dono: SK/formato-curso-v6 (assets/aula.css, V6-DESIGN.md).
 | ok (estado "certo") | `#0E6B55` | `#7CE0C6` | `#0D5F4C` |
 | warm (atenção) | `#8F520A` | `#F2B45C` | `#7E4A0C` |
 | bad (exemplo ruim) | `#A83426` | `#F0918A` | `#9A3122` |
-- Fontes: Newsreader (h1 clamp 36–60px, peso 500, -.02em), Inter 18px/1.7, JetBrains Mono só em código. Texto nunca < 14px.
+- Fontes: **Sora** no título (h1 clamp 36–60px, peso 800, -.01em; V4, 10/10/2026; antes Newsreader peso 500 -.02em), Inter 18px/1.7, JetBrains Mono só em código. Texto nunca < 14px.
 - Coluna `.aula` 40rem; visual `.largo` até 54rem; gutter 16px; raio 14px; botão pílula ≥ 40px de altura.
 - Cena ilustrada **sem texto dentro da imagem** (tradução é só HTML). Sem emoji.
 
