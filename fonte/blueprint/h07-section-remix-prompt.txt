@@ -1,0 +1,4 @@
+R: Here is my page: [file or URL]. Here is the gallery pick for the [navbar]: [link or screenshot]. Here is my brand: [DESIGN.md, or logo, colours and fonts].
+I: Rebuild only the [navbar] of my page. First study the pick. Write 5 plain lines about it: layout, spacing, type sizes, one motion, one small detail. Then build my version from those lines.
+S: Copy the pattern, never the pixels, words, logo or images. Use my colours, fonts and words. One main action. Add a comment at the top of the file: Inspired by [gallery name], [pick name].
+E: Show the pick and my section side by side at 1440px and 390px wide. List what you kept and what you changed. Fix anything that looks copied or off brand. Then stop and wait for the next section.

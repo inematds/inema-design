@@ -1,0 +1,4 @@
+R: Here is a reference clip I love: [link or file]. Here is my brand: [logo, colours, fonts, screenshots].
+I: Make a [15]-second film for [product]. First download the reference and pull one frame every half second. Write style.md: palette, type, shot lengths, transitions, camera moves, grain, and how text enters and leaves. Then write three storyboards in that style. Stop and wait for me to pick one.
+S: Copy the style of the reference, never its content, logos or characters. Camera: slow every zoom to 0.7x. Hard cut on the beat. Keep my real logo and colours. Render a real MP4 with [HyperFrames or Remotion].
+E: Before anything moves, make one still per scene and show me. After you render, check the frames at 0%, 25%, 50%, 75% and 100%. Score the film out of 10 for look, timing and brand. Fix every score under 8, then render again.

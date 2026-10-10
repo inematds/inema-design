@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INEMA Design — kit de design do ecossistema INEMA</title>
+<meta name="description" content="Regras visuais do INEMA num lugar só: cores, fontes, texto, câmera de vídeo, revisão de 5 quadros e o que já foi reprovado.">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/inema-design/guia/">
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/inema-design/guia/en/">
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/inema-design/guia/es/">
+<meta name="theme-color" content="#0c0c10">
+<meta property="og:title" content="INEMA Design — kit de design do ecossistema INEMA">
+<meta property="og:image" content="https://inematds.github.io/inema-design/guia/assets/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%8E%A8%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light pre .c{color:#8a8a98}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  code,pre{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .inema:hover{filter:brightness(1.15)}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:rgba(226,162,59,.12)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:760px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(226,162,59,.22),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.18rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:34ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:62ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.92rem;margin:0}
+  .num{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:8px;background:rgba(226,162,59,.14);color:var(--amb);font-family:Sora;font-weight:800;font-size:.9rem;margin-bottom:.7em}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0}
+  pre .c{color:#6f6f7c} pre .k{color:var(--amb2)} pre .s{color:#9ece6a}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:26px}
+  .step>div,.card{min-width:0}
+  p code,li code,td code{overflow-wrap:anywhere}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .7em}
+  .ex{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:680px){.ex{grid-template-columns:1fr}}
+  .ex figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .ex figure img{width:100%;display:block}
+  .ex figcaption{padding:12px 14px;font-size:.88rem;color:var(--mut);background:var(--card)}
+  .phase{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .phase:last-child{border:none}
+  .phase .tag{flex:0 0 92px;font-family:Sora;font-weight:800;color:var(--amb)}
+  .phase .d strong{display:block;margin-bottom:.2em}
+  .phase .d span{color:var(--mut);font-size:.92rem}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
+  .skip{position:absolute;left:-9999px;top:8px;background:var(--amb);color:#1a1206;padding:8px 14px;border-radius:8px;z-index:100}
+  .skip:focus{left:8px}
+  img{height:auto}
+</style>
+</head>
+<body>
+<a class="skip" href="#resumo">Pular para o conteúdo</a>
+
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="emoji">🎨</span> INEMA Design</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#oque">O que é</a>
+    <a class="sec" href="#fluxo">Como funciona</a>
+    <a class="sec" href="#guia">Guia de uso</a>
+    <a class="sec" href="#exemplos">Exemplos</a>
+    <a class="sec" href="#roadmap">Roadmap</a>
+    <span class="lang"><a class="on" href="./">PT</a><a href="en/">EN</a><a href="es/">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
+    <a class="btn" href="https://github.com/inematds/inema-design" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<main>
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div>
+      <span class="chip">Kit de design · páginas, cursos e vídeos</span>
+      <h1>As regras da marca num <span class="amb">lugar só</span></h1>
+      <p class="lead">Uma pasta que o agente lê antes de criar qualquer peça. Cores, fontes, texto, câmera e tudo o que já foi reprovado, com a fonte de cada regra.</p>
+      <div class="cta">
+        <a class="btn" href="#guia">Começar o guia</a>
+        <a class="btn ghost" href="https://github.com/inematds/inema-design" target="_blank" rel="noopener">Ver no GitHub</a>
+      </div>
+    </div>
+    <figure><img src="assets/banner.jpg" width="1400" height="788" alt="Banner do kit INEMA Design: as regras da marca num lugar só"></figure>
+  </div>
+</header>
+
+<section id="resumo" class="resumo"><div class="wrap">
+  <span class="chip">Em resumo</span>
+  <p>O INEMA Design é uma pasta de arquivos de texto com as regras visuais do ecossistema INEMA: cores, fontes, jeito de escrever, câmera de vídeo e a lista do que o Nei já reprovou. Serve para quem cria páginas, guias, cursos, banners, explicavideos, shorts e reels com agentes como Claude Code e Codex. O agente lê a pasta antes de começar e a peça sai no padrão da marca, sem repetir erro antigo. Para usar, basta copiar a pasta e pedir ao agente que leia o CLAUDE.md dela primeiro.</p>
+</div></section>
+
+<section id="oque"><div class="wrap">
+  <span class="chip">O que é</span>
+  <h2>Um "design-os" adaptado ao INEMA</h2>
+  <p class="sub">O método vem do Claude Design Blueprint: uma pasta de design que o agente lê antes de todo projeto. Aqui ela foi preenchida com as regras que já estavam espalhadas em skills, lições e memórias.</p>
+  <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="assets/banner-grade.jpg" width="1400" height="788" alt="Os seis blocos do kit: DESIGN.md, checklist de página, texto sem cara de IA, câmera com número, revisão de 5 quadros e o que já foi reprovado" loading="lazy" style="width:100%;height:auto;display:block"></figure>
+  <div class="grid g3">
+    <div class="card"><h3>🎨 Uma marca, várias linhas</h3><p>O DESIGN.md tem um núcleo comum e uma seção por tipo de peça: guia dark âmbar, curso v2, v5 e v6, banner, thumb e vídeo. Cada cor tem a origem anotada.</p></div>
+    <div class="card"><h3>🎬 Vídeo com nota</h3><p>Padrão de 16:9 e 9:16, palavras de câmera com número e revisão de 5 quadros (0, 25, 50, 75 e 100%) com nota de 0 a 10 em visual, ritmo e marca.</p></div>
+    <div class="card"><h3>🧾 Memória de correções</h3><p>Tudo o que o Nei já reprovou fica numa lista só. Quando ele corrige algo novo, vira uma linha ali e o erro não volta.</p></div>
+  </div>
+</div></section>
+
+<section id="fluxo"><div class="wrap">
+  <span class="chip">Como funciona</span>
+  <h2>O agente lê, produz e confere</h2>
+  <p class="sub">A ordem de leitura está no CLAUDE.md da pasta. Conflitos entre regras não são resolvidos pelo agente: vão para o DECISOES.md e o dono escolhe.</p>
+  <div class="flow">
+    <span>CLAUDE.md</span><span class="arr">→</span>
+    <span>DESIGN.md (linha da peça)</span><span class="arr">→</span>
+    <span>correcoes.md</span><span class="arr">→</span>
+    <span>regras/ ou video/</span><span class="arr">→</span>
+    <span>produzir</span><span class="arr">→</span>
+    <span>preship.py ou 5 quadros</span>
+  </div>
+  <div class="grid g3" style="margin-top:22px">
+    <div class="card"><h3>Páginas</h3><p><code>regras/pagina-20.md</code> (20 pontos antes de publicar) e <code>checks/preship.py</code>, que confere o HTML.</p></div>
+    <div class="card"><h3>Texto</h3><p><code>regras/texto.md</code>: aberturas proibidas, palavras que soam como IA, ano por extenso na fala.</p></div>
+    <div class="card"><h3>Vídeo</h3><p><code>video/style.md</code>, <code>video/camera.md</code> e <code>video/revisao-5-quadros.md</code>.</p></div>
+  </div>
+</div></section>
+
+<section id="pre"><div class="wrap">
+  <span class="chip">Pré-requisitos</span>
+  <h2>Pouca coisa</h2>
+  <p class="sub">Os arquivos são texto. Só os dois scripts de conferência precisam de ferramenta instalada.</p>
+  <div class="grid g3">
+    <div class="card"><h3>Um agente</h3><p>Claude Code, Codex ou outro que leia arquivos da pasta.</p><pre><span class="k">git clone</span> https://github.com/inematds/inema-design</pre></div>
+    <div class="card"><h3>Python 3</h3><p>Para o <code>preship.py</code>. Sem instalar nada além do Python.</p><pre><span class="k">python3</span> --version</pre></div>
+    <div class="card"><h3>ffmpeg</h3><p>Para tirar os 5 quadros de um vídeo pronto.</p><pre><span class="k">ffmpeg</span> -version</pre></div>
+  </div>
+</div></section>
+
+<section id="guia"><div class="wrap">
+  <span class="chip">Guia de uso · passo a passo</span>
+  <h2>Do clone à peça conferida</h2>
+  <p class="sub">Os comandos abaixo são os que estão no repositório.</p>
+
+  <div class="step"><div class="b">1</div><div>
+    <h3>Copie a pasta</h3>
+    <p>Deixe a pasta onde o agente consegue ler, por exemplo em <code>~/projetos/inema-design</code>.</p>
+<pre><span class="k">git clone</span> https://github.com/inematds/inema-design ~/projetos/inema-design</pre>
+  </div></div>
+
+  <div class="step"><div class="b">2</div><div>
+    <h3>Peça ao agente que leia primeiro</h3>
+    <p>Antes de qualquer peça visual, a primeira instrução é a leitura do kit. O agente diz em até seis linhas o que leu e quais regras valem.</p>
+<pre><span class="s">"Leia ~/projetos/inema-design/CLAUDE.md e siga a ordem de leitura. Depois crie o guia do projeto X."</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">3</div><div>
+    <h3>Confira a página antes de publicar</h3>
+    <p>O script testa parte dos 20 pontos (h1, main, viewport, título, descrição, imagem de compartilhamento, favicon, tamanho das imagens, rótulos). O resto se confere pela lista.</p>
+<pre><span class="k">python3</span> checks/preship.py guia/index.html  <span class="c"># PASS/FAIL por item e o total</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">4</div><div>
+    <h3>Revise o vídeo em 5 quadros</h3>
+    <p>Tire os quadros, monte uma folha e dê nota de 0 a 10 em visual, ritmo e marca. Nota abaixo de 8 volta para correção. Se refazer custar crédito, pergunte antes.</p>
+<pre>V=video.mp4; D=$(<span class="k">ffprobe</span> -v error -show_entries format=duration -of csv=p=0 "$V")
+<span class="k">for</span> p in 0 25 50 75 100; <span class="k">do</span>
+  t=$(python3 -c "print(min($D*$p/100, $D-0.05))")
+  <span class="k">ffmpeg</span> -v error -y -ss "$t" -i "$V" -frames:v 1 "quadro-$p.jpg"
+<span class="k">done</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">5</div><div>
+    <h3>Registre cada correção</h3>
+    <p>Quando o dono reprovar algo, acrescente uma linha com data em <code>memoria/correcoes.md</code>. Na próxima peça o agente já lê essa regra.</p>
+<pre><span class="s">- 10/10 — Zoom 1,4–1,9 cortando texto: reprovado. Dissolve, imagem inteira, zoom ≤ 1,25.</span></pre>
+  </div></div>
+</div></section>
+
+<section id="exemplos"><div class="wrap">
+  <span class="chip">Exemplos</span>
+  <h2>Testado em peças reais</h2>
+  <p class="sub">As duas conferências foram rodadas em material já publicado.</p>
+  <div class="ex">
+    <figure><img src="assets/ex1.jpg" width="1400" height="498" alt="Folha com os 5 quadros de um reel: capa, dois quadros com o mesmo título e o fechamento INEMA.CLUB" loading="lazy"><figcaption>Revisão de 5 quadros num reel comentado: o título do topo é o mesmo aos 25% e aos 50%, um ponto para a nota de ritmo.</figcaption></figure>
+    <figure><pre style="margin:0;border:none;border-radius:0">PASS  18  html has a lang attribute
+PASS  18  exactly one h1
+FAIL  18  main landmark present
+PASS  3   viewport meta present
+FAIL  20  og:image is set
+FAIL  20  theme-color is set
+FAIL  20  favicon link is set
+FAIL  16  every img has width and height
+
+8/13 pass</pre><figcaption>O preship.py no modelo de guia usado até hoje: 8 de 13. Este guia já foi feito com as correções.</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="roadmap"><div class="wrap">
+  <span class="chip">Roadmap</span>
+  <h2>Três etapas</h2>
+  <p class="sub">A primeira cria os arquivos. As outras ligam o kit às ferramentas que produzem as peças.</p>
+  <div class="phase"><div class="tag">Etapa 1</div><div class="d"><strong>Kit base (feito)</strong><span>DESIGN.md, regras, vídeo, correções, mapa dos projetos, decisões em aberto e preship.py.</span></div></div>
+  <div class="phase"><div class="tag">Etapa 2</div><div class="d"><strong>Vídeo</strong><span>Revisão de 5 quadros e style.md tirado de referência no refazvideo, depois docflow, reelcomenta, cardshorts e eventosextremospub. No finviral, só nota em log.</span></div></div>
+  <div class="phase"><div class="tag">Etapa 3</div><div class="d"><strong>Páginas e cursos</strong><span>A skill de guia e os formatos de curso passam a ler o DESIGN.md e a rodar o checklist antes de publicar.</span></div></div>
+</div></section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="pill">Markdown</div><div class="pill">Python 3</div><div class="pill">ffmpeg</div>
+    <p style="margin-top:18px">INEMA Design · baseado no Claude Design Blueprint, Power Design e SlopMonster (MIT) ·
+      <a href="https://github.com/inematds/inema-design">inematds/inema-design</a> ·
+      <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var KEY='inema-design-theme';
+    var b=document.body, t=document.getElementById('themeToggle');
+    if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; }
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      localStorage.setItem(KEY, light?'light':'dark');
+    });
+  })();
+</script>
+</body>
+</html>

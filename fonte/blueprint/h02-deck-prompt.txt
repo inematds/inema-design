@@ -1,0 +1,4 @@
+R: Here is my deck outline: [paste the slide titles]. Here are my brand files: [logo, colours, fonts].
+I: Make one HTML deck. Every slide has one idea and one moving graphic. Each graphic loops for 6 to 10 seconds and the last frame matches the first. Before you build, show me three different styles. Wait for me to pick one.
+S: Five rules. 1) Use the real logo of every tool you name. 2) Make each slide visually engaging: one graphic, no bullet lists. 3) Keep it simple: a headline of 8 words at most and one line of 10 words at most. 4) Use real design sources, such as a design system from a real brand, and name them. 5) Make it gorgeous: real texture, no sparkle icons, no clipped text.
+E: Draw each loop in code from one render(t) function. Check the frames at 0%, 25%, 50%, 75% and 100% on every slide. Fix what looks off. Then make slide 1 again as 9:16.

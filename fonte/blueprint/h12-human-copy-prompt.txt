@@ -1,0 +1,4 @@
+R: Here is my copy: [paste the page text, email or script]. It will appear on [a sign-up page]. The reader is [who reads it]. Use the Slop Monster skill: [~/.claude/skills/slopmonster].
+I: Edit my copy. 1) Run the checker and show me the score out of 5. 2) Rewrite it so the first line answers the reader's first question. 3) Ask a rival model to clean it, then run the checker again. 4) Compare the final copy with my first draft.
+S: Plain English. Short active sentences. One idea per sentence. Small common words. No em dashes. Keep my facts and my meaning. Never invent a number, a customer, a rating or a quote. Write [needs number] where proof is missing.
+E: Show me the final copy, the score before and after, and five lines on what changed. Tell me if the rival-model pass did not run. List every claim I must check myself.

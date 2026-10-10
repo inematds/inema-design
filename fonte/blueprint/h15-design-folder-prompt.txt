@@ -1,0 +1,4 @@
+R: My design folder is [path to design-os/]. Read CLAUDE.md first. Then read DESIGN.md, taste/inspo.md, the files in rules/ and memory/corrections.md.
+I: Build [the page, poster or deck]. Before you draw anything, tell me in six lines what you read and which rules apply. Then ask me for the one reference this piece must beat. Write projects/[name]/brief.md and rules/bar.md. Then build it.
+S: Obey DESIGN.md over your own taste. Never invent a colour, font, logo or icon. Use only files from assets/. Write the words by rules/words.md. If my request clashes with DESIGN.md, stop and ask.
+E: Run checks/preship.py and the 20-point list in rules/web-20.md. Show me every fail first. Fix them and run again until all pass. Then add each correction I give you to memory/corrections.md as one rule.

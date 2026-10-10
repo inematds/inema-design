@@ -1,0 +1,4 @@
+R: My brand and design system: [DESIGN.md, or logo, colours and fonts]. The page is [a sign-up page for my product]. One page I admire: [link].
+I: Build five full, different versions of [the page]. Same brand, same colours, my design system. Totally different layouts. Name each version in three words and say what it gives up.
+S: Version 1 is the safest. Version 5 is the boldest. No two versions share a hero layout. Keep my real words and logo. One main action per version.
+E: Show all five side by side at 1440px and 390px wide. Rank them for clarity. Tell me which parts to mix, for example the hero of 2 and the footer of 4. Wait for my pick, then build the mix.

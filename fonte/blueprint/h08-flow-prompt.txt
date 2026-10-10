@@ -1,0 +1,4 @@
+R: My product is [product]. The flow to fix is [sign-up]. My current flow: [screenshots or URL]. My brand: [DESIGN.md, or colours and fonts]. Connected tool: [Mobbin, Refero or Inspo].
+I: Search [Mobbin] for sign-up flows from five apps in [my category]. For each one, write the number of steps, the order of the steps, the fields it asks for, the step where the user first gets value, and one thing it does well. Put it all in flow-teardown.md. Show me and wait. Then rebuild my sign-up in the best order.
+S: Copy the order and the logic, never the screens, words or logos. Keep my brand. Ask for the fewest fields. One main action on each step. Credit the five apps in a comment.
+E: Show my flow next to the best reference, step by step. Count my steps and fields before and after. Remove any step the references do not need. Fix it, then show me again.

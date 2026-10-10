@@ -1,0 +1,4 @@
+R: The subject is [what the scene shows, for example a koi pond at dusk]. The mood is [three plain words]. One reference: [a photo or a link]. Use three-starter.html in this folder as the base.
+I: Build one HTML file with Three.js loaded from a CDN with an import map. Pin the version. The scene fills the window. People can orbit and zoom. One thing in the scene reacts to the cursor.
+S: Name one choice each for camera, light, material and motion. Use simple shapes. Use instancing for anything that repeats. Cap the pixel ratio at 2. Idle motion is a gentle drift, never a slow zoom. Turn motion off for people who ask for reduced motion.
+E: Open it in a browser and fix every console error. Test at 390 px wide and at 1440 px wide. Report renderer.info.render.calls and triangles. If they are high, cut shapes until a phone can run it. Show me a screenshot at each width.

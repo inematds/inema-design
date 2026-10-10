@@ -1,0 +1,13 @@
+Here is my form: [paste the HTML, a URL or a screenshot].
+Its one job is: [for example, get an email address to start a trial].
+
+Make it as short as it can be and still do that job.
+1. List every field. For each one, say if we need it today (yes or no) and why.
+2. Remove every field we do not need today. We can ask for it later.
+3. Use one column. Give every field a visible label, the right input type and an autocomplete value.
+4. Use one main button. Its label starts with a verb and names the result, such as "Start free trial", not "Submit".
+5. Show each error next to its field. Say what went wrong and how to fix it. Never clear what the person typed.
+6. Mark optional fields "(optional)". If the form has steps, show "Step 2 of 3".
+
+Show a before and after, the fields you removed, and a count: fields before, fields after.
+Then run the one-screen test (one-screen-test.md) on the result and show me the score.

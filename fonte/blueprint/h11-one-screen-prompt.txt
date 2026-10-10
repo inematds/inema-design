@@ -1,0 +1,4 @@
+R: Here is my screen: [file, URL or screenshot]. Here is my brand file: [DESIGN.md].
+I: Make five versions of [my sign-up step]. The one job of this screen is [to get an email address]. Make each version simpler in a different way. Show all five side by side. Wait for me to pick.
+S: One main button, 44px tall or more. A visible label on every field. Ask only for what you need today. Plain words. Nothing on screen that does not help the one job. Keep the colours and fonts in my brand file.
+E: Score each version with the one-screen test: count the fields, buttons, links and words. Rank them from fewest to most. Keep the simplest and tell me what you cut. Then remove one more thing and check that the job still works.

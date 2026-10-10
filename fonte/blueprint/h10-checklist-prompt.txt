@@ -1,0 +1,4 @@
+R: Here is my page: [file, folder or URL]. Here is my checklist: design-checklist.md. Here is my brand file: [DESIGN.md].
+I: Audit my page. Start five subagents, one for each job in the checklist. Each agent checks its four rules and reports problems. Agents only read. They never edit a file. Every agent also flags dead buttons, broken links and leftover placeholder text.
+S: Each agent returns one list. For every problem give the rule number, where it is, how bad it is (high, medium or low) and the fix in one line. Test at 390px and 1280px wide.
+E: Merge the five lists into one fix list and show it to me. Change nothing until I say go. Then fix everything yourself, so no two agents edit one file. Run the failed checks again. Show before and after screenshots.

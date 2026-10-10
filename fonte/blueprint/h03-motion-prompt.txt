@@ -1,0 +1,4 @@
+R: Here is my page: [file or URL]. Here are three motion details I like: [a Kinetics prompt, or a clip from 60fps.design].
+I: Add small, premium motion. Only these five. 1) A 4px lift on hover for cards. 2) A soft press (scale 0.97) on buttons. 3) A 40ms stagger when cards enter. 4) Numbers that count up once. 5) A focus ring that eases in.
+S: Small motions take 150 to 300ms and ease out. A count-up takes under 1 second. No more than three things move at once. Respect prefers-reduced-motion: turn motion off for those users. Never move text while people read it.
+E: Test at 390px wide, like a phone. Check that nothing janks or shifts the layout. Show me a before and after. Then list every motion you added.

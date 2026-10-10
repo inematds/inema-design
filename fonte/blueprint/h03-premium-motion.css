@@ -1,0 +1,32 @@
+/* Small premium motion. Paste into your stylesheet.
+   Only transform and opacity move, so it stays smooth. */
+:root {
+  --ease-out: cubic-bezier(.2, .7, .2, 1);
+  --t-fast: 180ms;
+  --t-med: 260ms;
+}
+
+/* 1. A lift on hover (give your cards the class "card") */
+.card { transition: transform var(--t-med) var(--ease-out), box-shadow var(--t-med) var(--ease-out); }
+@media (hover: hover) {
+  .card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -12px rgb(0 0 0 / .25); }
+}
+
+/* 2. A soft press (give your buttons the class "btn") */
+.btn { transition: transform var(--t-fast) var(--ease-out); }
+.btn:active { transform: scale(.97); }
+
+/* 3. A stagger when things enter.
+   Add class "reveal" and style="--i:0", then --i:1, --i:2 ... */
+.reveal { opacity: 0; transform: translateY(12px); animation: rise 300ms var(--ease-out) forwards; animation-delay: calc(var(--i, 0) * 40ms); }
+@keyframes rise { to { opacity: 1; transform: none; } }
+
+/* 4. A focus ring that eases in */
+:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; animation: ring var(--t-fast) var(--ease-out); }
+@keyframes ring { from { outline-offset: 0; } }
+
+/* 5. Respect "reduce motion". Never remove this block. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; animation-delay: 0ms !important; transition-duration: 1ms !important; }
+  .reveal { opacity: 1; transform: none; }
+}
