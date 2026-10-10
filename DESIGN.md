@@ -67,7 +67,7 @@ Sem arquivo oficial de logo INEMA; sem raio/sombra e largura máxima definidos p
 
 ## 3. Linha Curso v2 ("inema-dark", Tailwind)
 Dono: SK/formato-curso-v2 (SKILL.md, DESIGN-SYSTEM.md).
-- Fundo `#111827`, superfície `#1f2937`, borda `#374151`, texto `#e6e6e6`, secundário `#a8a8b3`. (DS:319-324) Nunca `#000`/`#fff` puros. (DS:377)
+- Fundo `#0c0c10`, superfície `#16161e`, borda `#272730` (V2, 10/10/2026: mesmo preto do guia; antes `#111827`/`#1f2937`/`#374151`, que continua nos cursos já publicados). Texto `#e6e6e6`, secundário `#a8a8b3`. (DS:319-324) Nunca `#000`/`#fff` puros. (DS:377)
 - Primária **amarela `#FACC15`** (logo, CTA, dica); no claro, texto `#a16207`. (SKILL:201) É a mesma cor do guia desde a V1 (10/10/2026).
 - Sky `#38bdf8` = link INEMA.CLUB e cor secundária dos SVG. (SKILL:202,205)
 - Cor por trilha: T1 emerald, T2 blue, T3 purple, T4 amber, T5 teal, T6 rose. (SKILL:188-195)
@@ -76,7 +76,7 @@ Dono: SK/formato-curso-v2 (SKILL.md, DESIGN-SYSTEM.md).
 
 ## 4. Linha Curso v5 ("dark editorial", 40+)
 Dono: SK/formato-curso-v5 (assets/aula.css, V5-DESIGN.md).
-- Escuro: bg `#0E0D14`, bg2 `#15131d`, painel `#1a1824`, tinta `#ECE6D9`, secundário `#948DA6`, fraco `#6C6580`, linha `#2A2637`.
+- Escuro: bg `#0c0c10` (V2, 10/10/2026; antes `#0E0D14`), bg2 `#15131d`, painel `#1a1824`, tinta `#ECE6D9`, secundário `#948DA6`, fraco `#6C6580`, linha `#2A2637`.
 - Acento menta `#7CE0C6` (dim `#4FB79E`); atenção `--warm #F2B45C`; erro `#E0736F`.
 - Papel: `#F6F1E7` / tinta `#2A2620` / acento `#0F7A61` / warm `#9A6310`. Sépia: `#ECE0C9` / `#43331F` / `#0F6E58` / `#8A5A12`.
 - Fontes: **Newsreader** (títulos, números), Inter (texto), Space Mono (rótulos). Leitura 60ch.
@@ -86,7 +86,7 @@ Dono: SK/formato-curso-v5 (assets/aula.css, V5-DESIGN.md).
 Dono: SK/formato-curso-v6 (assets/aula.css, V6-DESIGN.md).
 | Token | Papel (padrão) | Escuro | Sépia |
 |---|---|---|---|
-| bg | `#F7F3EA` | `#15141B` | `#EFE3CB` |
+| bg | `#F7F3EA` | `#0c0c10` (V2; antes `#15141B`) | `#EFE3CB` |
 | bg2 | `#EFE8DA` | — | — |
 | painel | `#FFFFFF` | `#1F1D28` | — |
 | tinta | `#221E18` | `#EFEAE0` | — |
