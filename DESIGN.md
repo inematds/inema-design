@@ -30,6 +30,16 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 ### Tokens, não hex solto
 - Cor só por variável CSS; claro/escuro trocando o valor da mesma variável. (SK/projetos-landing-guia/SKILL.md:121)
 
+### Amarelo INEMA `#FACC15` (V1 + V3, 10/10/2026)
+- **Cor de marca única** de guia e de todo curso novo (v2, v5, v6). Menta, verde e ocre saem como acento.
+- **Fundo escuro:** o amarelo pode ser letra (destaque de título, link, rótulo) e fundo de botão (letra `#1a1206`).
+- **Fundo claro (papel, modo claro):** o amarelo **nunca é letra**. Só preenchimento:
+  - botão: fundo `#FACC15`, letra `#1a1206`;
+  - palavra de destaque: letra na cor da tinta + marca-texto `linear-gradient(transparent 55%, #FACC15 55%)`;
+  - caixa de dica: fundo `#FEF9C3`, filete `#EAB308`;
+  - link: letra `#854d0e`, sublinhado `#FACC15` 3px — a única letra colorida.
+- Verde fica só como **estado** "certo/feito" (par do vermelho `bad`), com rótulo junto; nunca como cor de marca.
+
 ### Arte gerada
 - Capa, hero, cena de curso e thumb: Codex image_gen pela assinatura; flux2-klein é reserva. (MEM/feedback_capa_guia_codex; V6-DESIGN.md:93)
 - Texto da arte (gancho, thumb): desenhado DENTRO da imagem pelo Codex, não sobreposto. (MEM/feedback_thumb_viral_codex; LESSONS 08/10)
@@ -77,7 +87,7 @@ Dono: SK/formato-curso-v2 (SKILL.md, DESIGN-SYSTEM.md).
 ## 4. Linha Curso v5 ("dark editorial", 40+)
 Dono: SK/formato-curso-v5 (assets/aula.css, V5-DESIGN.md).
 - Escuro: bg `#0c0c10` (V2, 10/10/2026; antes `#0E0D14`), bg2 `#15131d`, painel `#1a1824`, tinta `#ECE6D9`, secundário `#948DA6`, fraco `#6C6580`, linha `#2A2637`.
-- Acento menta `#7CE0C6` (dim `#4FB79E`); atenção `--warm #F2B45C`; erro `#E0736F`.
+- Acento amarelo `#FACC15` (V3, 10/10/2026; antes menta `#7CE0C6`, dim `#4FB79E`); atenção `--warm #F2B45C`; erro `#E0736F`. Papel e sépia seguem a regra "amarelo em fundo claro" do núcleo.
 - Papel: `#F6F1E7` / tinta `#2A2620` / acento `#0F7A61` / warm `#9A6310`. Sépia: `#ECE0C9` / `#43331F` / `#0F6E58` / `#8A5A12`.
 - Fontes: **Newsreader** (títulos, números), Inter (texto), Space Mono (rótulos). Leitura 60ch.
 - Ícones: até 10, só CSS, nunca decorativos (troféu, medalha, confete, mascote proibidos). (V5-DESIGN.md:22,68)
@@ -92,7 +102,8 @@ Dono: SK/formato-curso-v6 (assets/aula.css, V6-DESIGN.md).
 | tinta | `#221E18` | `#EFEAE0` | — |
 | secundário | `#5E5546` | — | — |
 | linha | `#E2D9C8` | — | — |
-| accent (certo/ação) | `#0E6B55` | `#7CE0C6` | `#0D5F4C` |
+| accent (ação/marca) | `#FACC15` como preenchimento; link `#854d0e` (V3; antes `#0E6B55`) | `#FACC15` (antes `#7CE0C6`) | igual ao papel (antes `#0D5F4C`) |
+| ok (estado "certo") | `#0E6B55` | `#7CE0C6` | `#0D5F4C` |
 | warm (atenção) | `#8F520A` | `#F2B45C` | `#7E4A0C` |
 | bad (exemplo ruim) | `#A83426` | `#F0918A` | `#9A3122` |
 - Fontes: Newsreader (h1 clamp 36–60px, peso 500, -.02em), Inter 18px/1.7, JetBrains Mono só em código. Texto nunca < 14px.

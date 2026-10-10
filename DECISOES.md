@@ -7,7 +7,7 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 |---|---|---|---|---|
 | V1 | Cor primária "âmbar" | Guia: âmbar `#E2A23B` (template.html:21) | Curso v2: amarelo `#FACC15` (SKILL:201) | **B — amarelo `#FACC15`** em toda página nova (guia e curso). Os publicados até 10/10/2026 ficam como estão. Motivo: lê melhor no escuro (~12:1 contra ~8:1) e o portal nunca foi âmbar (é ciano `#00d9ff`). Banners seguem com dourado metálico. (Nei, 10/10/2026) |
 | V2 | Fundo escuro de base | Guia `#0c0c10` | v2 `#111827` · v5 `#0E0D14` · v6 escuro `#15141B` | **A — preto neutro `#0c0c10`** em toda página nova (guia, v2, v5, v6 escuro), com cartão `#16161e` e borda `#272730` do guia. Publicados ficam. Portal (`#0a0e27`) fora: é outro site. (Nei, 10/10/2026) |
-| V3 | Acento dos cursos | v5/v6: menta/verde (`#7CE0C6`, `#0E6B55`) | guia/v2: âmbar/amarelo | é intencional (cursos ≠ guia)? |
+| V3 | Acento dos cursos | v5/v6: menta/verde (`#7CE0C6`, `#0E6B55`) | guia/v2: âmbar/amarelo | **Amarelo em todo curso novo** (v5 incluído). Em fundo claro o amarelo é só preenchimento (botão, marca-texto, caixa), letra escura, link `#854d0e`. Verde fica só como estado "certo". Regra no núcleo do DESIGN.md. (Nei, 10/10/2026) |
 | V4 | Fonte de título | Guia: Sora | v2: Inter · v5/v6: Newsreader (serif) | |
 | V5 | Fonte condensada | Banner proíbe (gerar-banner.sh:55,74) | Thumb "manchete" pede sans condensada (thumbviral/estilos.py:5) | thumb é exceção? |
 | V6 | Azul no banner | Memória: sem neon azul (feedback_banner_estilo_live:16) | `gerar-banner.sh:40` default "ícone 3D azul-ciano"; estilo `opus` fundo azul (:88) | corrigir o script? |
