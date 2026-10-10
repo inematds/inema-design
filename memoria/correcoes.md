@@ -40,6 +40,7 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - set/26 — Texto da IA na arte com erro ("entomo", "specifiication", "inemafds"): conferir antes de publicar.
 
 ## Página, guia, curso
+- 10/10 — Quadros "Últimas Atualizações" do portal saturados (tudo quase branco + repo em MAIÚSCULAS negrito). Descrição cinza-claro `#aab4c3` peso 400; repo em amarelo `#FACC15`, minúsculo; selo com opacidade .75 (portal a2251a7).
 - 08/10 — Landing v6 publicada com `[colchetes]` do modelo.
 - 05/10 — Guia ES com 5 imagens quebradas (caminho `assets/` não ajustado na tradução).
 - 01/10 — Global de 1 letra colidiu com script de CDN e a página parou.

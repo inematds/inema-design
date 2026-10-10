@@ -53,7 +53,7 @@ Sem arquivo oficial de logo INEMA; sem raio/sombra e largura máxima definidos p
 | `--line` | `#272730` | `#e1e3ea` | borda |
 | `--txt` | `#e9e9ee` | `#1a1a22` | texto |
 | `--mut` | `#9a9aa6` | `#5b5b68` | texto secundário |
-| `--amb` | `#E2A23B` | `#b9791d` | acento único: botão, destaque |
+| `--amb` | `#FACC15` | `#a16207` | acento único: botão, destaque (V1, 10/10/2026; antes `#E2A23B`/`#b9791d`, que continua nos guias já publicados) |
 | `--amb2` | `#f0c070` | `#a16207` | acento claro |
 | `--sky` | `#38bdf8` | `#0369a1` | **só** o link INEMA.CLUB |
 | `--pro` | `#cbd5e1` | `#b45309` | selo PRO |
@@ -68,7 +68,7 @@ Sem arquivo oficial de logo INEMA; sem raio/sombra e largura máxima definidos p
 ## 3. Linha Curso v2 ("inema-dark", Tailwind)
 Dono: SK/formato-curso-v2 (SKILL.md, DESIGN-SYSTEM.md).
 - Fundo `#111827`, superfície `#1f2937`, borda `#374151`, texto `#e6e6e6`, secundário `#a8a8b3`. (DS:319-324) Nunca `#000`/`#fff` puros. (DS:377)
-- Primária **amarela `#FACC15`** (logo, CTA, dica); no claro, texto `#a16207`. (SKILL:201) ⚠ difere do âmbar do guia — `DECISOES.md` V1.
+- Primária **amarela `#FACC15`** (logo, CTA, dica); no claro, texto `#a16207`. (SKILL:201) É a mesma cor do guia desde a V1 (10/10/2026).
 - Sky `#38bdf8` = link INEMA.CLUB e cor secundária dos SVG. (SKILL:202,205)
 - Cor por trilha: T1 emerald, T2 blue, T3 purple, T4 amber, T5 teal, T6 rose. (SKILL:188-195)
 - Temas: sépia `#FBF0D9`/`#5F4B32`; alto contraste `#0A0E14`/`#F5F7FA`; claro sem gradiente. (DS:306,378-381)

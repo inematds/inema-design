@@ -5,7 +5,7 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 ## Visual
 | # | Conflito | Lado A | Lado B | Decisão |
 |---|---|---|---|---|
-| V1 | Cor primária "âmbar" | Guia: âmbar `#E2A23B` (template.html:21) | Curso v2: amarelo `#FACC15` (SKILL:201) | |
+| V1 | Cor primária "âmbar" | Guia: âmbar `#E2A23B` (template.html:21) | Curso v2: amarelo `#FACC15` (SKILL:201) | **B — amarelo `#FACC15`** em toda página nova (guia e curso). Os publicados até 10/10/2026 ficam como estão. Motivo: lê melhor no escuro (~12:1 contra ~8:1) e o portal nunca foi âmbar (é ciano `#00d9ff`). Banners seguem com dourado metálico. (Nei, 10/10/2026) |
 | V2 | Fundo escuro de base | Guia `#0c0c10` | v2 `#111827` · v5 `#0E0D14` · v6 escuro `#15141B` | unificar ou manter por linha? |
 | V3 | Acento dos cursos | v5/v6: menta/verde (`#7CE0C6`, `#0E6B55`) | guia/v2: âmbar/amarelo | é intencional (cursos ≠ guia)? |
 | V4 | Fonte de título | Guia: Sora | v2: Inter · v5/v6: Newsreader (serif) | |
