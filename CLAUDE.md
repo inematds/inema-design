@@ -13,6 +13,7 @@ Baseado no método "design-os" do Claude Design Blueprint (originais em `fonte/b
    - peça a partir de uma referência → `regras/bar.md`
 4. `MAPA-PROJETOS.md` — onde cada recurso entra em cada projeto.
 5. `DECISOES.md` — conflitos ainda em aberto. Se a peça cair num deles, **pergunte ao Nei**, não escolha sozinho.
+6. `HISTORICO.md` — o valor antigo de cada decisão. Ao mexer numa página publicada antes da decisão, consulte aqui; ao fechar uma decisão nova, acrescente a linha "era assim → ficou assim".
 
 ## Como trabalhar
 

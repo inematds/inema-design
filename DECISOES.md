@@ -1,6 +1,6 @@
 # Decisões em aberto (o Nei escolhe)
 
-As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando decidir, escreva a escolha na linha e atualize `DESIGN.md` / `video/style.md`.
+As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando decidir, escreva a escolha na linha e atualize `DESIGN.md` / `video/style.md`. O valor antigo vai para `HISTORICO.md`.
 
 ## Visual
 | # | Conflito | Lado A | Lado B | Decisão |
