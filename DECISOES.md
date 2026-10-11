@@ -14,7 +14,7 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 | V7 | Âmbar nos vídeos | `#F5A623` (legenda reel) | `#ffd23f` (finviral, eventos, cardshorts) · `#E2A23B`/`#f0e805` (docflow) | **A — `#FACC15` em todo vídeo novo**, legenda com contorno preto; troca no código dos motores na etapa 2. (Nei, 10/10/2026) |
 | V8 | Dosagem de dourado no banner | "Contido, dourado só como acento" (SKILL landing :298) | "Luz âmbar-laranja de palco, cor viva" (gerar-banner.sh:54) | **Os dois valem, cada um numa parte**: letras contidas (branco + uma palavra dourada), cena com luz quente viva; nunca tudo dourado nem cinza. Alinhar a frase da skill na etapa 3. (Nei, 10/10/2026) |
 | V9 | Hero do guia | Capa `split` (SKILL :221) | Banner 16:9 na hero, capa só reserva (SKILL :252) | **Não era conflito**: `split` é o layout da capa do CATÁLOGO (`capa/capa.png`, lida pelo portal/PRO); a hero do guia é o banner live 16:9, e o `hero.png` cru é só reserva se o banner falhar. Registrado em 11/10/2026. |
-| V10 | Emoji | Guia (logo) e v2 (títulos de card) usam | v6 proíbe | por linha (provável) |
+| V10 | Emoji | Guia (logo) e v2 (títulos de card) usam | v6 proíbe | **A — por linha**: guia e v2 usam emoji só como ícone pequeno (logo, cartão), nunca no meio do texto; v5 e v6 sem emoji. (Nei, 11/10/2026) |
 
 ## Vídeo
 | # | Conflito | Lado A | Lado B | Decisão |

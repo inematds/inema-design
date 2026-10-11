@@ -30,6 +30,10 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 ### Tokens, não hex solto
 - Cor só por variável CSS; claro/escuro trocando o valor da mesma variável. (SK/projetos-landing-guia/SKILL.md:121)
 
+### Emoji (V10, 11/10/2026)
+- Guia e curso v2: emoji só como ícone pequeno (logo, título de cartão); nunca no meio do texto nem em fecho de aula.
+- Cursos v5 e v6: sem emoji (decisão pedagógica: não infantilizar o adulto iniciante).
+
 ### Fonte (V4, 10/10/2026)
 - Título de toda página nova (guia e cursos v2/v5/v6): **Sora**. Corpo: **Inter**. Código: JetBrains Mono. Serifada não entra mais em título.
 

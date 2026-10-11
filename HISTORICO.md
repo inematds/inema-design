@@ -13,3 +13,4 @@ Cada decisão do `DECISOES.md` ganha uma linha aqui com o valor antigo. As pági
 | 10/10/2026 | V6 — azul no banner | Conflito anotado: memória "sem neon azul" × estilo opus azul | Sem mudança no script; regra escrita: azul só no opus, opcional | — |
 | 10/10/2026 | V7 — amarelo dos vídeos | Reel `#F5A623`; finviral/eventosextremospub/cardshorts `#ffd23f`; docflow `#E2A23B` e `#f0e805` | `#FACC15` em todo vídeo novo, contorno preto na legenda | Vídeos publicados; código dos motores até a etapa 2 |
 | 10/10/2026 | V8 — dourado no banner | Skill: "contido, dourado só acento"; script: "luz de palco, cor viva" (frases em conflito) | Letras contidas + cena quente viva (registra o que já sai e foi aprovado) | Frase antiga em `projetos-landing-guia/SKILL.md:298` até a etapa 3 |
+| 11/10/2026 | V10 — emoji | Guia/v2 usavam; v5/v6 proibiam (sem regra comum escrita) | Regra por linha: ícone pequeno em guia/v2; nada em v5/v6 | Nada muda nas peças publicadas |
