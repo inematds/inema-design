@@ -55,7 +55,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 - Duração: divulgação 20–50s (máx. 59); tutorial 35–60s (máx. 75). ~150 palavras/min. (reel-profiles.json)
 
 ### Texto na tela
-- Legenda palavra a palavra, 1–3 palavras, ≤ 22 caracteres; Montserrat Black, contorno preto 8px, palavra-chave âmbar `#F5A623`, ≥ 64px. (spec-reel.md:60-64)
+- Legenda palavra a palavra, 1–3 palavras, ≤ 22 caracteres; Montserrat Black, contorno preto 8px, palavra-chave amarelo `#FACC15` (V7, 10/10/2026; antes âmbar `#F5A623`), ≥ 64px. (spec-reel.md:60-64)
 - Safe area: topo 10%, base 20%, laterais 6%, coluna direita 12%. Legenda não cobre o rosto. (reel-profiles.json)
 
 ### Áudio

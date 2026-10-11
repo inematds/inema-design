@@ -11,3 +11,4 @@ Cada decisão do `DECISOES.md` ganha uma linha aqui com o valor antigo. As pági
 | 10/10/2026 | V4 — fonte de título | Guia Sora 800; v2 Inter; v5/v6 Newsreader (serif, peso 500, -.02em) | Sora em todo título novo; corpo Inter | Cursos v2/v5/v6 publicados até 10/10/2026; skills `formato-curso-v2/v5/v6` até a etapa 3 |
 | 10/10/2026 | V5 — fonte condensada | Banner proibia; thumb manchete usava sem regra escrita (conflito) | Thumb pode, banner não (regra por linha) | Nada muda nas peças publicadas |
 | 10/10/2026 | V6 — azul no banner | Conflito anotado: memória "sem neon azul" × estilo opus azul | Sem mudança no script; regra escrita: azul só no opus, opcional | — |
+| 10/10/2026 | V7 — amarelo dos vídeos | Reel `#F5A623`; finviral/eventosextremospub/cardshorts `#ffd23f`; docflow `#E2A23B` e `#f0e805` | `#FACC15` em todo vídeo novo, contorno preto na legenda | Vídeos publicados; código dos motores até a etapa 2 |

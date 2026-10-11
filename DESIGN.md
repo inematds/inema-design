@@ -130,11 +130,12 @@ Dono: `~/projetos/output/thumbviral/` + MEM/feedback_thumb_viral_codex.
 
 ## 8. Linha Vídeo
 Regras completas em `video/style.md` (padrão INEMA preenchido) e `video/camera.md`.
-- Legenda de reel: Montserrat Black, contorno preto 8px, palavra-chave âmbar `#F5A623`, ≥ 64px (86px no empilhado). (MS spec-reel.md:60-64)
+- Legenda de reel: Montserrat Black, contorno preto 8px, palavra-chave amarelo `#FACC15` (V7, 10/10/2026; antes âmbar `#F5A623`), ≥ 64px (86px no empilhado). (MS spec-reel.md:60-64)
 - Paletas dos motores próprios (hoje no código, sem arquivo):
   - eventosextremospub `motor/mapa.html`: fundo `#05080c`, vermelho `#ff2a1f`, âmbar `#ffd23f`, azul `#5ec8ff`, Inter.
   - finviral `motor/palco.html`: `--ink #0b0f14`, `--red #ff2a1f`, `--amb #ffd23f`, `--grn #2bff88`, `--blu #5ec8ff`; Archivo Black + Inter.
   - docflow `motores/reais.py`: fundo de gráfico `#0d1117`, destaque `#f0e805`/`#E2A23B`, Montserrat ExtraBold.
   - cardshorts `estilos/comum.css`: vermelho `#ff3b2f`, amarelo `#ffd23f`; zona da legenda y 1450–1720.
+  - **V7 (10/10/2026):** todo vídeo novo usa um amarelo só, `#FACC15`, com contorno preto na legenda. Os tons acima (`#F5A623`, `#ffd23f`, `#E2A23B`, `#f0e805`) são o estado do código até a etapa 2; vermelho/verde/azul de dado (alta, queda, mapa) continuam.
   - reelcomenta `reelcomenta.py`: constantes AMB/VERM/BRANCO; Anton + Montserrat.
   - ⚠ quatro "âmbares" diferentes nos vídeos — `DECISOES.md` V7.
