@@ -15,3 +15,4 @@ Cada decisão do `DECISOES.md` ganha uma linha aqui com o valor antigo. As pági
 | 10/10/2026 | V8 — dourado no banner | Skill: "contido, dourado só acento"; script: "luz de palco, cor viva" (frases em conflito) | Letras contidas + cena quente viva (registra o que já sai e foi aprovado) | Frase antiga em `projetos-landing-guia/SKILL.md:298` até a etapa 3 |
 | 11/10/2026 | V10 — emoji | Guia/v2 usavam; v5/v6 proibiam (sem regra comum escrita) | Regra por linha: ícone pequeno em guia/v2; nada em v5/v6 | Nada muda nas peças publicadas |
 | 11/10/2026 | D1 — ritmo do reel | makeshorts 2–4 s (imagem ≤ 3,5 s); reel-edita 5–7 trocas/10 s | 1,5–3 s por troca; gancho pode mais rápido | Código/specs dos dois motores até a etapa 2 |
+| 11/10/2026 | D2 — voz do reel-edita | `narra.sh` default `rachel`; Nei só com `--nei N` | Default `nei.wav` (0,6/0,6); rachel só se pedida | `reel-edita-inema/scripts/narra.sh` até a etapa 2 |
