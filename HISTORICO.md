@@ -16,3 +16,4 @@ Cada decisão do `DECISOES.md` ganha uma linha aqui com o valor antigo. As pági
 | 11/10/2026 | V10 — emoji | Guia/v2 usavam; v5/v6 proibiam (sem regra comum escrita) | Regra por linha: ícone pequeno em guia/v2; nada em v5/v6 | Nada muda nas peças publicadas |
 | 11/10/2026 | D1 — ritmo do reel | makeshorts 2–4 s (imagem ≤ 3,5 s); reel-edita 5–7 trocas/10 s | 1,5–3 s por troca; gancho pode mais rápido | Código/specs dos dois motores até a etapa 2 |
 | 11/10/2026 | D2 — voz do reel-edita | `narra.sh` default `rachel`; Nei só com `--nei N` | Default `nei.wav` (0,6/0,6); rachel só se pedida | `reel-edita-inema/scripts/narra.sh` até a etapa 2 |
+| 11/10/2026 | D3 — zoom no reel | Teto 1,25 só no explicativo; reel/makeshorts sem teto | Com texto ≤ 1,25× em tudo; foto sem texto no reel ≤ 1,4× | Motores de reel até a etapa 2 |

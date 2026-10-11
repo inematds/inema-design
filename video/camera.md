@@ -20,6 +20,7 @@ Os limites INEMA (coluna da direita) vêm do que o Nei aprovou/reprovou e valem 
 
 ## Nunca
 - Punch-in ou close forte que corta o texto da ilustração (zoom 1,4–1,9 reprovado, 09/10).
+- Teto de zoom (D3, 11/10/2026): imagem COM texto (print, ilustração escrita, gráfico) ≤ 1,25× em qualquer formato, reel incluído; foto SEM texto no reel/short: punch-in até 1,4×.
 - Troca de imagem "com choque" no explicativo.
 - Pulso de brilho/flash/zoom na mesma imagem contando como "troca" no reel.
 - Ken Burns lento de ~4,5% como único movimento de um short (lote de 28/09 reprovado: "sem atração").
