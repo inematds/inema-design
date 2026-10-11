@@ -118,7 +118,7 @@ Dono: `gerar-banner.sh` + MEM/feedback_banner_estilo_live, feedback_banner_porta
 - **live** (padrão): fundo preto com luz âmbar/laranja de palco; letras brancas + dourado/âmbar; ícones em traço dourado.
 - **grade**: 6 cartões com objetos 3D dourados; faixa inferior escura com borda dourada. Grade liso só no Atendimento.
 - Dourado como acento (filete, destaque, poucos pontos de luz), não tudo dourado saturado. (SKILL landing :298-299)
-- Tipo: sans geométrica (Montserrat/Gotham), extra-bold × fina. **Nunca fonte de jogo** (condensada, inflada, cartunesca). (gerar-banner.sh:55,74)
+- Tipo: sans geométrica (Montserrat/Gotham), extra-bold × fina. **Nunca fonte de jogo** (condensada, inflada, cartunesca). (gerar-banner.sh:55,74) A thumb é a única exceção à condensada (V5).
 - Sem neon azul no título; INEMA.PRO não é referência. ⚠ `gerar-banner.sh` ainda tem default azul — `DECISOES.md` V6.
 - Banner novo da home = estilo MODS (cena cinematográfica, título dourado enorme à esquerda).
 
@@ -126,7 +126,7 @@ Dono: `gerar-banner.sh` + MEM/feedback_banner_estilo_live, feedback_banner_porta
 Dono: `~/projetos/output/thumbviral/` + MEM/feedback_thumb_viral_codex.
 - Gancho de 2–4 palavras PT, caixa alta, palavra-chave em amarelo, sujeito grande com emoção, alto contraste, etiqueta "INEMA.CLUB".
 - Estilo sorteado entre os 10 de `estilos.py`; não repetir o padrão "texto branco+amarelo empilhado à esquerda".
-- ⚠ estilo "manchete" pede sans condensada — `DECISOES.md` V5.
+- Fonte condensada **pode** na thumb (estilo "manchete" e outros que pedirem): ela é exceção, porque disputa atenção no feed em tamanho de selo. (V5, 10/10/2026)
 
 ## 8. Linha Vídeo
 Regras completas em `video/style.md` (padrão INEMA preenchido) e `video/camera.md`.
