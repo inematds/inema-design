@@ -19,7 +19,7 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 ## Vídeo
 | # | Conflito | Lado A | Lado B | Decisão |
 |---|---|---|---|---|
-| D1 | Ritmo do reel | 2–4s por troca (spec-reel.md:52, reel-profiles.json) | 5–7 trocas a cada 10s (reel-edita 03-sfx-e-qc.md:67) | |
+| D1 | Ritmo do reel | 2–4s por troca (spec-reel.md:52, reel-profiles.json) | 5–7 trocas a cada 10s (reel-edita 03-sfx-e-qc.md:67) | **A — 1,5–3 s por troca** em reel/short; gancho pode mais rápido; explicativo 16:9 fora. Ajustar spec-reel/reel-profiles e reel-edita na etapa 2. (Nei, 11/10/2026) |
 | D2 | Voz padrão do reel-edita | Regra: voz do Nei | `narra.sh:28` default `rachel` | corrigir o default? |
 | D3 | Teto de zoom no reel | explicativo: ≤ 1,25 | makeshorts/spec-reel sem teto | vale 1,25 também no reel? |
 | D4 | Preset viral (video-plan-editor) | corte 0,8–1,5s, whip/punch, karaokê caixa alta | regras de calma do explicativo | preset viral é só para 9:16? |

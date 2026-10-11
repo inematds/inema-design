@@ -49,7 +49,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 
 ### Ritmo
 - Uma ideia por short. (MEM/feedback_shorts_virais)
-- Troca de conteúdo a cada 2–4s; imagem nova a cada ≤ 3,5s; pulso/brilho sobre a mesma imagem não conta. (MS reel-profiles.json; spec-visual.md:52-54) ⚠ reel-edita fala em 5–7 trocas/10s — `DECISOES.md` D1.
+- Troca de conteúdo a cada **1,5–3 s** (D1, 11/10/2026; antes 2–4 s no makeshorts e 5–7 trocas/10 s no reel-edita); no gancho (0–3 s) pode ser mais rápido. Pulso/brilho sobre a mesma imagem não conta como troca. Vale para reel e short 9:16; explicativo 16:9 segue o ritmo calmo.
 - Reengajar perto de 25% e 65% com troca de visual ou ângulo. (spec-visual.md:55)
 - Pelo menos 1 em cada 3 visuais é prova real (print, site, dado). (MS SKILL)
 - Duração: divulgação 20–50s (máx. 59); tutorial 35–60s (máx. 75). ~150 palavras/min. (reel-profiles.json)
