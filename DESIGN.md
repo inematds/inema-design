@@ -119,7 +119,7 @@ Dono: `gerar-banner.sh` + MEM/feedback_banner_estilo_live, feedback_banner_porta
 - **grade**: 6 cartões com objetos 3D dourados; faixa inferior escura com borda dourada. Grade liso só no Atendimento.
 - Dourado como acento (filete, destaque, poucos pontos de luz), não tudo dourado saturado. (SKILL landing :298-299)
 - Tipo: sans geométrica (Montserrat/Gotham), extra-bold × fina. **Nunca fonte de jogo** (condensada, inflada, cartunesca). (gerar-banner.sh:55,74) A thumb é a única exceção à condensada (V5).
-- Sem neon azul no título; INEMA.PRO não é referência. ⚠ `gerar-banner.sh` ainda tem default azul — `DECISOES.md` V6.
+- Sem neon azul no título; INEMA.PRO não é referência. Azul (fundo e molduras) só no estilo **opus**, opcional, que só sai quando pedido (tema de IA/chip/modelo). live e grade nunca levam azul. (V6, 10/10/2026)
 - Banner novo da home = estilo MODS (cena cinematográfica, título dourado enorme à esquerda).
 
 ## 7. Linha Thumb (YouTube longo; short NÃO leva thumb)

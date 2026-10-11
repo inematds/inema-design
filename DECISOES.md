@@ -10,7 +10,7 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 | V3 | Acento dos cursos | v5/v6: menta/verde (`#7CE0C6`, `#0E6B55`) | guia/v2: âmbar/amarelo | **Amarelo em todo curso novo** (v5 incluído). Em fundo claro o amarelo é só preenchimento (botão, marca-texto, caixa), letra escura, link `#854d0e`. Verde fica só como estado "certo". Regra no núcleo do DESIGN.md. (Nei, 10/10/2026) |
 | V4 | Fonte de título | Guia: Sora | v2: Inter · v5/v6: Newsreader (serif) | **A — Sora** no título de toda página nova; corpo Inter. (Nei, 10/10/2026) |
 | V5 | Fonte condensada | Banner proíbe (gerar-banner.sh:55,74) | Thumb "manchete" pede sans condensada (thumbviral/estilos.py:5) | **A — thumb é exceção**: condensada pode na thumb, banner continua proibindo. (Nei, 10/10/2026) |
-| V6 | Azul no banner | Memória: sem neon azul (feedback_banner_estilo_live:16) | `gerar-banner.sh:40` default "ícone 3D azul-ciano"; estilo `opus` fundo azul (:88) | corrigir o script? |
+| V6 | Azul no banner | Memória: sem neon azul (feedback_banner_estilo_live:16) | `gerar-banner.sh:40` default "ícone 3D azul-ciano"; estilo `opus` fundo azul (:88) | **A — manter**: azul só no estilo `opus`, opcional, só quando pedido; live/grade sem azul (já é assim no script). (Nei, 10/10/2026) |
 | V7 | Âmbar nos vídeos | `#F5A623` (legenda reel) | `#ffd23f` (finviral, eventos, cardshorts) · `#E2A23B`/`#f0e805` (docflow) | um âmbar de vídeo só? |
 | V8 | Dosagem de dourado no banner | "Contido, dourado só como acento" (SKILL landing :298) | "Luz âmbar-laranja de palco, cor viva" (gerar-banner.sh:54) | |
 | V9 | Hero do guia | Capa `split` (SKILL :221) | Banner 16:9 na hero, capa só reserva (SKILL :252) | |
