@@ -115,3 +115,8 @@ Referência: [link]   Extraído em: [data]
 ## Nunca
 - Três visuais a evitar:
 ```
+
+## Presets do video-plan-editor (D4, 12/10/2026)
+- Os 5 presets (`acao`, `suave`, `promo`, `vendas`, `viral`) continuam como estão e são escolha por vídeo; o ritmo do preset escolhido vale.
+- Sem preset escolhido, vale o padrão INEMA: troca a cada 1,5–3 s no reel/short (D1).
+- Regras que valem para TODO preset (vieram de reprovação): zoom/punch nunca corta texto (D3); voz do Nei (D2); amarelo `#FACC15` (V7); `viral` só em 9:16, nunca em explicativo 16:9.
