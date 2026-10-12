@@ -43,6 +43,11 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 - Guia e curso v2: emoji só como ícone pequeno (logo, título de cartão); nunca no meio do texto nem em fecho de aula.
 - Cursos v5 e v6: sem emoji (decisão pedagógica: não infantilizar o adulto iniciante).
 
+### Ícones (L5, 12/10/2026)
+- Ícone desenhado (não emoji) = estilo **traço fino de linha** tipo Lucide (MIT), SVG inline na página, cor por `currentColor`: amarelo ou branco no escuro, tinta no claro.
+- Mesma linguagem dos ícones de traço dourado dos banners.
+- Emoji só onde a V10 deixa (logo e cartão em guia/v2). v5 mantém a regra própria (ícones só CSS, até 10).
+
 ### Fonte (V4, 10/10/2026)
 - Título de toda página nova (guia e cursos v2/v5/v6): **Sora**. Corpo: **Inter**. Código: JetBrains Mono. Serifada não entra mais em título.
 
