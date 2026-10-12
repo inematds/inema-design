@@ -23,8 +23,8 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 | D2 | Voz padrão do reel-edita | Regra: voz do Nei | `narra.sh:28` default `rachel` | **A — default = voz do Nei** (`voice-refs/nei.wav`, 0,6/0,6) no `narra.sh`; rachel só se pedida (ex.: inglês). Default geral do inemavox não muda. Código na etapa 2. (Nei, 11/10/2026) |
 | D3 | Teto de zoom no reel | explicativo: ≤ 1,25 | makeshorts/spec-reel sem teto | **C — pela imagem**: com texto ≤ 1,25× em tudo (reel incluído); foto sem texto no reel até 1,4×. (Nei, 11/10/2026) |
 | D4 | Preset viral (video-plan-editor) | corte 0,8–1,5s, whip/punch, karaokê caixa alta | regras de calma do explicativo | **Presets livres**: os 5 continuam, escolha por vídeo; D1 é o padrão sem preset; D2/D3/V7 valem para todos; `viral` só 9:16. (Nei, 12/10/2026) |
-| D5 | `video-explicativo` | descrição ainda cita 9:16 | análise de 29/09 propôs tirar | conferir e corrigir? |
-| D6 | Caminho do contrato | AUTHORING.md:95 aponta `~/projetos/makeshorts/...` | arquivo real em `~/.claude/skills/makeshorts/references/` | corrigir caminho |
+| D5 | `video-explicativo` | descrição ainda cita 9:16 | análise de 29/09 propôs tirar | **Já resolvido**: a descrição diz "NÃO use para reel/short/viral" e o 9:16 citado é só a versão vertical do mesmo explicativo. Conferido em 12/10/2026. |
+| D6 | Caminho do contrato | AUTHORING.md:95 aponta `~/projetos/makeshorts/...` | arquivo real em `~/.claude/skills/makeshorts/references/` | **Não era erro**: `~/.claude/skills/makeshorts` é link para `~/projetos/makeshorts/.claude/skills/makeshorts`; o caminho do AUTHORING existe. Conferido em 12/10/2026. |
 
 ## Achado do teste (10/10/2026)
 - A1 — `checks/preship.py` no modelo `~/.claude/skills/projetos-landing-guia/assets/template.html`: 8/13. Faltam `<main>`, `og:image`, `theme-color`, favicon e width/height nas imagens. Todo guia herda isso (5-mods e crunchlog 8/13; arena-capivara e ata 6/13). Corrigir no modelo é a etapa 3; nada foi alterado.
