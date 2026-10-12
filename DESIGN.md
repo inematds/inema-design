@@ -30,6 +30,15 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 ### Tokens, não hex solto
 - Cor só por variável CSS; claro/escuro trocando o valor da mesma variável. (SK/projetos-landing-guia/SKILL.md:121)
 
+### Forma e medidas do guia (L2, medido no template em 12/10/2026)
+- Largura: conteúdo até 1160px; texto corrido 62–74ch.
+- Raio: 10px botão e controles · 12px bloco de código e número de passo · 14px cartão e figura de exemplo · 16px figura da hero · 999px pílula.
+- Sombra: nenhuma em cartão (separação por borda 1px `--line`); única sombra é a figura da hero (`0 30px 80px -30px #000`).
+
+### Tamanho mínimo de letra (L3, 12/10/2026)
+- Corpo 16px (guia) / 18px (v6). Texto de leitura nunca < 14px em nenhuma linha.
+- Rótulo em CAIXA ALTA com espaçamento (chip, idioma, pílula) pode descer até 12px (.75rem). Hoje o chip do guia está em .72rem (11,5px): sobe para .75rem na etapa 3.
+
 ### Emoji (V10, 11/10/2026)
 - Guia e curso v2: emoji só como ícone pequeno (logo, título de cartão); nunca no meio do texto nem em fecho de aula.
 - Cursos v5 e v6: sem emoji (decisão pedagógica: não infantilizar o adulto iniciante).
