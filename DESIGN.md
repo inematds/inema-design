@@ -138,6 +138,7 @@ Dono: `gerar-banner.sh` + MEM/feedback_banner_estilo_live, feedback_banner_porta
 - Dosagem (V8, 10/10/2026): **letras contidas** (branco + UMA palavra grande em dourado) e **cena com luz quente viva** (palco âmbar/laranja, bokeh, reflexos). Nunca tudo dourado, nunca cinza/monocromático.
 - Tipo: sans geométrica (Montserrat/Gotham), extra-bold × fina. **Nunca fonte de jogo** (condensada, inflada, cartunesca). (gerar-banner.sh:55,74) A thumb é a única exceção à condensada (V5).
 - Sem neon azul no título; INEMA.PRO não é referência. Azul (fundo e molduras) só no estilo **opus**, opcional, que só sai quando pedido (tema de IA/chip/modelo). live e grade nunca levam azul. (V6, 10/10/2026)
+- **Selo do nome em azul (V11, 13/10/2026):** quando o banner cita o projeto ou produto, o nome vai em azul `#3B9EFF` (Sora ExtraBold, brilho leve) acima do título, à esquerda (`gerar-banner.sh --selo "Nome"` ou `selo-banner.py`). Se o nome já está no título da imagem, não leva selo. É a única exceção ao "sem azul" do live/grade. Primeiro uso: área inemaSEO (eventos b5d7201, portal 4badec3).
 - Banner novo da home = estilo MODS (cena cinematográfica, título dourado enorme à esquerda).
 
 ## 7. Linha Thumb (YouTube longo; short NÃO leva thumb)
