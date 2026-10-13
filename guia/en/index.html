@@ -18,12 +18,12 @@
 <style>
   :root{
     --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
-    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#FACC15; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
     color-scheme:dark;
   }
   body.light{
     --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
-    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#a16207; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
     color-scheme:light;
   }
   body.light .hero .glow{opacity:.5}
@@ -96,6 +96,7 @@
   .ex figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
   .ex figure img{width:100%;display:block}
   .ex figcaption{padding:12px 14px;font-size:.88rem;color:var(--mut);background:var(--card)}
+  .tbl{width:100%;border-collapse:collapse;font-size:.95rem}.tbl th,.tbl td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}.tbl th{font-family:Sora;color:var(--mut);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.08em}.tbl td:first-child{font-weight:600;white-space:nowrap}.tblw{overflow-x:auto}
   .phase{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
   .phase:last-child{border:none}
   .phase .tag{flex:0 0 92px;font-family:Sora;font-weight:800;color:var(--amb)}
@@ -124,6 +125,7 @@
     <a class="sec" href="#fluxo">How it works</a>
     <a class="sec" href="#guia">User guide</a>
     <a class="sec" href="#exemplos">Examples</a>
+    <a class="sec" href="#decisoes">Decisions</a>
     <a class="sec" href="#roadmap">Roadmap</a>
     <span class="lang"><a href="../">PT</a><a class="on" href="./">EN</a><a href="../es/">ES</a></span>
     <button class="tgl" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
@@ -254,12 +256,19 @@ FAIL  16  every img has width and height
   </div>
 </div></section>
 
+<section id="decisoes"><div class="wrap">
+  <span class="chip">Decisions</span>
+  <h2>What the owner chose</h2>
+  <p class="sub">Reviewed one by one between Oct 10 and 12, 2026. Pages and videos already published stay as they were; the old value of each item is in HISTORICO.md.</p>
+  <div class="tblw"><table class="tbl"><thead><tr><th>Topic</th><th>Decision</th></tr></thead><tbody><tr><td>Brand color</td><td>Yellow <code>#FACC15</code> on pages, courses and video (previously amber <code>#E2A23B</code> in the guide)</td></tr><tr><td>Dark background</td><td>Black <code>#0c0c10</code> on every new page</td></tr><tr><td>Light background</td><td>Yellow only as a fill: button, highlighter and box; text stays dark and links are <code>#854d0e</code></td></tr><tr><td>Headings</td><td>Sora; body text in Inter</td></tr><tr><td>Emoji</td><td>Only as a small icon in the guide and the v2 course; none in the v5 and v6 courses</td></tr><tr><td>Icons</td><td>Thin line stroke, Lucide style</td></tr><tr><td>Banner</td><td>Restrained lettering, warm scene; blue only in the opus style, on request</td></tr><tr><td>Thumbnail</td><td>Condensed type allowed; not in the banner</td></tr><tr><td>Reels and shorts</td><td>Image change every 1.5–3 s and Nei's voice by default</td></tr><tr><td>Zoom</td><td>Up to 1.25× on images with text; up to 1.4× on photos in reels</td></tr><tr><td>Video presets</td><td>All five stay available; the rules born from rejections apply to every one</td></tr></tbody></table></div>
+</div></section>
+
 <section id="roadmap"><div class="wrap">
   <span class="chip">Roadmap</span>
   <h2>Three stages</h2>
   <p class="sub">The first creates the files. The others connect the kit to the tools that make the pieces.</p>
-  <div class="phase"><div class="tag">Stage 1</div><div class="d"><strong>Base kit (done)</strong><span>DESIGN.md, rules, video, corrections, project map, open decisions and preship.py.</span></div></div>
-  <div class="phase"><div class="tag">Stage 2</div><div class="d"><strong>Video</strong><span>5-frame review and a style.md taken from a reference in refazvideo, then docflow, reelcomenta, cardshorts and eventosextremospub. In finviral, only a score in the log.</span></div></div>
+  <div class="phase"><div class="tag">Stage 1</div><div class="d"><strong>Base kit (done)</strong><span>DESIGN.md, rules, video, corrections, project map, closed decisions, history and preship.py.</span></div></div>
+  <div class="phase"><div class="tag">Stage 2</div><div class="d"><strong>Video</strong><span>5-frame review and a style.md taken from a reference in refazvideo, then docflow, reelcomenta, cardshorts and eventosextremospub. In finviral, only a score in the log. Single yellow already applied to cardshorts, docflow, eventosextremospub, makeshorts, finviral and reel-edita (Oct 13).</span></div></div>
   <div class="phase"><div class="tag">Stage 3</div><div class="d"><strong>Pages and courses</strong><span>The guide skill and the course formats start reading DESIGN.md and running the checklist before publishing.</span></div></div>
 </div></section>
 </main>

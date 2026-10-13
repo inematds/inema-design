@@ -18,12 +18,12 @@
 <style>
   :root{
     --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
-    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#FACC15; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
     color-scheme:dark;
   }
   body.light{
     --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
-    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#a16207; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
     color-scheme:light;
   }
   body.light .hero .glow{opacity:.5}
@@ -96,6 +96,7 @@
   .ex figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
   .ex figure img{width:100%;display:block}
   .ex figcaption{padding:12px 14px;font-size:.88rem;color:var(--mut);background:var(--card)}
+  .tbl{width:100%;border-collapse:collapse;font-size:.95rem}.tbl th,.tbl td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}.tbl th{font-family:Sora;color:var(--mut);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.08em}.tbl td:first-child{font-weight:600;white-space:nowrap}.tblw{overflow-x:auto}
   .phase{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
   .phase:last-child{border:none}
   .phase .tag{flex:0 0 92px;font-family:Sora;font-weight:800;color:var(--amb)}
@@ -124,6 +125,7 @@
     <a class="sec" href="#fluxo">Cómo funciona</a>
     <a class="sec" href="#guia">Guía de uso</a>
     <a class="sec" href="#exemplos">Ejemplos</a>
+    <a class="sec" href="#decisoes">Decisiones</a>
     <a class="sec" href="#roadmap">Roadmap</a>
     <span class="lang"><a href="../">PT</a><a href="../en/">EN</a><a class="on" href="./">ES</a></span>
     <button class="tgl" id="themeToggle" aria-label="Cambiar tema" title="Cambiar tema">🌙</button>
@@ -254,12 +256,19 @@ FAIL  16  every img has width and height
   </div>
 </div></section>
 
+<section id="decisoes"><div class="wrap">
+  <span class="chip">Decisiones</span>
+  <h2>Lo que eligió el dueño</h2>
+  <p class="sub">Revisión hecha una por una entre el 10 y el 12/10/2026. Las páginas y los videos ya publicados quedan como estaban; el valor anterior de cada ítem está en HISTORICO.md.</p>
+  <div class="tblw"><table class="tbl"><thead><tr><th>Tema</th><th>Decisión</th></tr></thead><tbody><tr><td>Color de marca</td><td>Amarillo <code>#FACC15</code> en páginas, cursos y video (antes ámbar <code>#E2A23B</code> en la guía)</td></tr><tr><td>Fondo oscuro</td><td>Negro <code>#0c0c10</code> en toda página nueva</td></tr><tr><td>Fondo claro</td><td>Amarillo solo como relleno: botón, resaltador y caja; la letra queda oscura y el enlace es <code>#854d0e</code></td></tr><tr><td>Títulos</td><td>Sora; el cuerpo en Inter</td></tr><tr><td>Emoji</td><td>Solo como ícono pequeño en la guía y en el curso v2; nada en los cursos v5 y v6</td></tr><tr><td>Íconos</td><td>Trazo fino de línea, estilo Lucide</td></tr><tr><td>Banner</td><td>Letras contenidas, escena cálida; azul solo en el estilo opus, cuando se pide</td></tr><tr><td>Miniatura</td><td>Puede usar tipografía condensada; el banner no</td></tr><tr><td>Reels y shorts</td><td>Cambio de imagen cada 1,5–3 s y voz de Nei por defecto</td></tr><tr><td>Zoom</td><td>Hasta 1,25× en imagen con texto; hasta 1,4× en foto en el reel</td></tr><tr><td>Presets de video</td><td>Los cinco siguen libres; las reglas que nacieron de rechazos valen para todos</td></tr></tbody></table></div>
+</div></section>
+
 <section id="roadmap"><div class="wrap">
   <span class="chip">Roadmap</span>
   <h2>Tres etapas</h2>
   <p class="sub">La primera crea los archivos. Las otras conectan el kit con las herramientas que producen las piezas.</p>
-  <div class="phase"><div class="tag">Etapa 1</div><div class="d"><strong>Kit base (listo)</strong><span>DESIGN.md, reglas, video, correcciones, mapa de los proyectos, decisiones abiertas y preship.py.</span></div></div>
-  <div class="phase"><div class="tag">Etapa 2</div><div class="d"><strong>Video</strong><span>Revisión de 5 cuadros y style.md sacado de una referencia en refazvideo, después docflow, reelcomenta, cardshorts y eventosextremospub. En finviral, solo nota en el log.</span></div></div>
+  <div class="phase"><div class="tag">Etapa 1</div><div class="d"><strong>Kit base (listo)</strong><span>DESIGN.md, reglas, video, correcciones, mapa de proyectos, decisiones cerradas, historial y preship.py.</span></div></div>
+  <div class="phase"><div class="tag">Etapa 2</div><div class="d"><strong>Video</strong><span>Revisión de 5 cuadros y style.md sacado de una referencia en refazvideo, después docflow, reelcomenta, cardshorts y eventosextremospub. En finviral, solo nota en el log. Amarillo único ya aplicado en cardshorts, docflow, eventosextremospub, makeshorts, finviral y reel-edita (13/10).</span></div></div>
   <div class="phase"><div class="tag">Etapa 3</div><div class="d"><strong>Páginas y cursos</strong><span>La skill de guía y los formatos de curso pasan a leer DESIGN.md y a correr el checklist antes de publicar.</span></div></div>
 </div></section>
 </main>
