@@ -37,6 +37,11 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 - Voz do Nei (avatar estúdio HeyGen ou `nei*` no Chatterbox 0.6/0.6, `atempo` ≤ 1,15). Nunca `rachel` em PT. (LESSONS)
 - Final em −14 LUFS, true peak ≤ −1 dBTP. (EXV2 produce.py)
 
+### Avatar do Nei (todos os formatos — D8, 15/10/2026)
+- **Nunca em tela cheia.** O máximo é meia tela (16:9: metade direita; 9:16: metade de baixo). O `rosto` do explicavideos viral cresce só até meia tela.
+- **9:16:** capa sem avatar (texto inicial segurado ~5 s) → avatar em **meio tamanho** no 1º bloco → **PiP** pequeno no canto do 2º bloco em diante, com a cena no quadro inteiro (explicavideos `"avatar_916": "pip"`, `"pip_cena"`, `"capa_segura"`).
+- **Imagens sem repetir:** uma imagem por momento; dado de lugar vira **mapa real** (satélite NASA HLS/GIBS anotado), não foto genérica de novo.
+
 ---
 
 ## B. Short / reel 9:16 (makeshorts, reel-edita-inema, reelcomenta, cardshorts, eventosextremospub, curto do finviral)
@@ -59,6 +64,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 - Safe area: topo 10%, base 20%, laterais 6%, coluna direita 12%. Legenda não cobre o rosto. (reel-profiles.json)
 
 ### Áudio
+- **Sem efeitos sonoros no meio** (D7, 15/10/2026): só voz + trilha baixa (`som_viral.py --sem-efeitos`).
 - Sem música de fundo em short didático. SFX só para marcar ação/revelação, vindos do inemavox. (spec-visual.md:57; RE 03-sfx-e-qc.md)
 - −14 LUFS ±1, true peak ≤ −1; 1080×1920, 30fps, h264/aac.
 

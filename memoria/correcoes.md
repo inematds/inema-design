@@ -4,6 +4,7 @@ Uma regra por linha, com data. Lido antes de toda peça. Quando o Nei corrigir a
 Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e análises de erro, consolidadas em 10/10/2026.
 
 ## Vídeo — abertura
+- 15/10 — Texto inicial (capa) ficou ~3 s e o Nei pediu mais segundos aberto (Itaipu 9:16): segurar ~5 s.
 - 09/10 — Capa (frame 0) = o GANHO da pessoa; abrir direto no flagrante foi reprovado (Execução Longa).
 - 09/10 — Clima: quadro 0 com data dd/mm/aaaa + número viral com fonte.
 - 08/10 — Todo vídeo longo precisa de gancho; abrir com mapa e "Neste momento…" foi reprovado (docflow).
@@ -12,6 +13,8 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 08/10 — Explicativo/refazvideo: capa de impacto + prévia + "no fim: …".
 
 ## Vídeo — imagem, câmera, transição
+- 15/10 — Avatar em tela cheia reprovado em todos os formatos: no máximo meia tela; 9:16 = meio → PiP (D8).
+- 15/10 — Fotos repetidas reprovadas (Itaipu: mesma chuva 5×): uma imagem por momento e mapa real da região (satélite) em vez de foto genérica.
 - 09/10 — Zoom 1,4–1,9 cortando texto e troca de imagem com punch: reprovados. Dissolve, imagem inteira, zoom ≤ 1,25.
 - 09/10 — Tornado/ciclone em SVG de anéis ficou feio: imagem realista + sobreposições finas; troca de assunto = tela limpa + nome grande.
 - 28/09 — Cards de texto sem imagem nem prova real ("nem estagiária faria"). Pelo menos 1 em 3 visuais é prova real.
@@ -19,6 +22,7 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 28/09 — Cena de IA impossível, telejornal ou entrevista simulada ("AO VIVO", logo de emissora).
 
 ## Vídeo — voz e texto
+- 15/10 — Efeitos sonoros no meio do vídeo reprovados: só voz + trilha baixa (D7).
 - 09/10 — Ano em algarismo: "2024" saiu "2004". Ano sempre por extenso e conferido por Whisper.
 - 08/10 — Chatterbox `nei` com exaggeration 0.85 / cfg 0.35 chiou o "s". Usar 0.6/0.6, `atempo` ≤ 1,15.
 - 29/09 — Voz `rachel` falando PT ("inema" → "enema"). Narração INEMA = voz do Nei.
