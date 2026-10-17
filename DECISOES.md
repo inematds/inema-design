@@ -18,6 +18,7 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 | V9 | Hero do guia | Capa `split` (SKILL :221) | Banner 16:9 na hero, capa só reserva (SKILL :252) | **Não era conflito**: `split` é o layout da capa do CATÁLOGO (`capa/capa.png`, lida pelo portal/PRO); a hero do guia é o banner live 16:9, e o `hero.png` cru é só reserva se o banner falhar. Registrado em 11/10/2026. |
 | V10 | Emoji | Guia (logo) e v2 (títulos de card) usam | v6 proíbe | **A — por linha**: guia e v2 usam emoji só como ícone pequeno (logo, cartão), nunca no meio do texto; v5 e v6 sem emoji. (Nei, 11/10/2026) |
 | V11 | Nome do projeto no banner | Sem azul no live/grade (V6) | Nei pediu "inemaSEO" em azul acima do título | **B — selo azul do nome** (`#3B9EFF`, Sora) acima do título quando o banner cita o projeto/produto; se o nome já está no título, não coloca. `gerar-banner.sh --selo` (formato-curso-inema). (Nei, 13/10/2026) |
+| V12 | Robô na arte | Sem regra; o Codex desenhava robô fofo/cartoon (rosto de tela com olhinhos) | — | **Robô estilo Tesla Optimus ou similar, ou robô realista**; nunca cartoon/mascote. Aplicado no prompt do `thumbviral` (estilos.py). (Nei, 17/10/2026) |
 
 ## Vídeo
 | # | Conflito | Lado A | Lado B | Decisão |
