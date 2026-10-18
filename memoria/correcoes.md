@@ -4,6 +4,7 @@ Uma regra por linha, com data. Lido antes de toda peça. Quando o Nei corrigir a
 Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e análises de erro, consolidadas em 10/10/2026.
 
 ## Vídeo — abertura
+- 18/10 — r7e com letra Anton + tarja sobre foto de banco de imagens e diagramas Pillow: "ficou padrão". O padrão viral é o do eventosextremospub (título dentro da arte, preto+amarelo, painéis, contador, karaokê); r7e passa a usar esse motor (D11).
 - 18/10 — r7e: capa com promessa ("SEU CONTEXTO NUM LUGAR SÓ", "SUA CHAVE ROUBADA NÃO VIRA PREJUÍZO") + imagem desfocada atrás do avatar não para o dedo; 5 reels sem visualização no TikTok/Instagram. No r7e o quadro 0 é gatilho (medo/novidade/provocação) com número e imagem nítida; nunca desarmar o medo na primeira frase (D9).
 - 15/10 — Texto inicial (capa) ficou ~3 s e o Nei pediu mais segundos aberto (Itaipu 9:16): segurar ~5 s.
 - 09/10 — Capa (frame 0) = o GANHO da pessoa; abrir direto no flagrante foi reprovado (Execução Longa).
