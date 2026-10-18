@@ -66,7 +66,7 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 - Texto da arte (gancho, thumb): desenhado DENTRO da imagem pelo Codex, não sobreposto. (MEM/feedback_thumb_viral_codex; LESSONS 08/10)
 - Conferir o texto que a IA escreveu na imagem antes de publicar ("entomo", "specifiication", "inemafds" já passaram). (SKILL landing :302-303)
 - Fenômeno natural (tornado, ciclone): imagem realista + sobreposições finas, nunca SVG desenhado. (LESSONS 09/10)
-- Robô na arte (capa, thumb, banner, cena de vídeo): estilo Tesla Optimus ou similar (humanoide industrial, liso, acabamento fosco/metálico) ou robô realista fotográfico. Nunca robô fofo/cartoon, com rosto de tela e olhinhos/emoji, estilo mascote ou brinquedo. (V12, Nei 17/10/2026)
+- Robô na arte (capa, thumb, banner, cena de vídeo): estilo Tesla Optimus ou similar (humanoide industrial, liso, acabamento fosco/metálico) ou robô realista fotográfico. Nunca robô fofo/cartoon, com rosto de tela e olhinhos/emoji, estilo mascote ou brinquedo. (V12, Nei 17/10/2026) A cabeça sempre tem uma área de visão escura (visor preto, faixa ou linha preta na frente); cabeça toda branca, sem visão, é reprovada (V13, Nei 18/10/2026).
 
 ### Lacunas conhecidas
 Sem arquivo oficial de logo INEMA; sem raio/sombra e largura máxima definidos para o guia. Ver `DECISOES.md`.

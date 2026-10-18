@@ -37,6 +37,7 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 28/09 — Lote/publicação sem protótipo aprovado.
 
 ## Banner, thumb, arte
+- 18/10 — Robô de cabeça toda branca, sem área de visão (banners diga-o-que-importa): reprovado. A cabeça precisa de visor/faixa/linha preta na frente.
 - 17/10 — Robô cartoon/fofo (rosto de tela com olhos e sorriso, estilo mascote) na capa do post Execução Longa (INEMA.DEV): reprovado. Robô = estilo Tesla Optimus ou similar, ou realista.
 - 08/10 — Thumb com flux + texto Pillow por cima: reprovada. Codex com o gancho desenhado; estilo variado.
 - 06/10 — Banner da home: estilo MODS (cena cinematográfica); grade liso só no Atendimento.
