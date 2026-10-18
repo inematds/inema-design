@@ -51,6 +51,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 - Gancho falado ≤ 2s e já escrito na tela; gancho secundário entre 3 e 8s. (MS SKILL)
 - Clima/notícia: data dd/mm/aaaa + número tipo "ATÉ 300 MM" com fonte no quadro 0. (MEM/feedback_eventos_extremos_abertura)
 - Teste: "eu pararia o dedo aqui?"
+- **reel7etapas (D9, 18/10/2026):** quadro 0 = GATILHO (medo, novidade ou provocação) com fato/número e fonte, imagem do flagrante nítida (sem desfoque), luz dramática liberada no gancho; o ganho/alívio só a partir da etapa 4. Exceção à "capa = ganho" das outras linhas.
 
 ### Ritmo
 - Uma ideia por short. (MEM/feedback_shorts_virais)
