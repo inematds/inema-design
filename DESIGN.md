@@ -50,6 +50,7 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 
 ### Fonte (V4, 10/10/2026)
 - Título de toda página nova (guia e cursos v2/v5/v6): **Sora**. Corpo: **Inter**. Código: JetBrains Mono. Serifada não entra mais em título.
+- **Exceção (V14, 18/10/2026):** a linha Curso v7.2 usa **Fraunces** (serifa) nos títulos e o amarelo dourado `#E9B949`. Vale só para ela (seção 5b).
 
 ### Amarelo INEMA `#FACC15` (V1 + V3, 10/10/2026)
 - **Cor de marca única** de guia e de todo curso novo (v2, v5, v6). Menta, verde e ocre saem como acento.
@@ -131,6 +132,27 @@ Dono: SK/formato-curso-v6 (assets/aula.css, V6-DESIGN.md).
 - Fontes: **Sora** no título (h1 clamp 36–60px, peso 800, -.01em; V4, 10/10/2026; antes Newsreader peso 500 -.02em), Inter 18px/1.7, JetBrains Mono só em código. Texto nunca < 14px.
 - Coluna `.aula` 40rem; visual `.largo` até 54rem; gutter 16px; raio 14px; botão pílula ≥ 40px de altura.
 - Cena ilustrada **sem texto dentro da imagem** (tradução é só HTML). Sem emoji.
+
+## 5b. Linha Curso v7.2 ("editorial cinematográfico", INEMA Learning v7)
+Dono: o gerador do próprio curso (`gerar.py` + `assets/v72.css`). Referência aprovada: `inematds/do-chat-ao-agente-v72` (https://inematds.github.io/do-chat-ao-agente-v72/). Aprovada pelo Nei em 18/10/2026 (V14).
+| Token | Escuro (padrão) | Papel (`html[data-tema="papel"]`) |
+|---|---|---|
+| `--bg` | `#1c1c1f` | `#F6F1E7` |
+| `--bg2` | `#222226` | `#EFE8DA` |
+| `--card` / `--card2` | `#26262b` / `#2a2a30` | `#FFFDF8` / `#FBF7EE` |
+| `--line` / `--line2` / `--line3` | `#33333a` / `#3f3f47` / `#55555f` | `#E3DACA` / `#D2C6B1` / `#B7A98F` |
+| `--txt` / `--txt2` | `#f3efe7` / `#d9d4ca` | `#1d1a16` / `#38322a` |
+| `--mut` / `--mut2` | `#a7a196` / `#7f7a72` | `#62594b` / `#7d7362` |
+| `--amb` (preenchimento: botão, número, ponto) | `#E9B949` | `#E2B13C` |
+| `--amb2` | `#F2CF79` | `#7a5a12` |
+| `--amb-t` (amarelo como letra) | `#E9B949` | `#7a5a12` (no claro, letra escura, nunca o amarelo) |
+| `--amb-ink` (letra sobre o amarelo) | `#1b1408` | `#1b1408` |
+- Fontes: **Fraunces** peso 600 (serifa, `opsz` alto) em h1 da aula, h2 das seções, h3 das etapas, números da página inicial e título fixo do diagrama; **Sora** no topo, botões e rótulos; **Inter** no corpo; JetBrains Mono no código.
+- h1 da aula `clamp(40px,5.4vw,70px)/1.02`, -.025em; h2 de seção `clamp(30px,3.6vw,48px)/1.08`, -.02em.
+- Abertura com foto (Codex image_gen, sem texto) que funde no fundo; seções `01 · Título`; "Nesta aula" numerada sem caixas; diagrama sem cartões; rolagem guiada com o título da seção preso junto do diagrama (só desktop).
+- Página inicial: foto de abertura, números em serifa, aulas como lista editorial com foto e ✓ das feitas.
+- Topo padrão v2 (curso | INEMA.CLUB - PRO; aulas + Aa; sol/lua ao lado do Aa). Barra lateral vira gaveta ☰. Largura até 1160px.
+- og:image continua a capa com texto (`assets/img/capa.jpg`).
 
 ## 6. Linha Banner (portal, eventos, guias)
 Dono: `gerar-banner.sh` + MEM/feedback_banner_estilo_live, feedback_banner_portal_limpo.

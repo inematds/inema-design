@@ -13,6 +13,7 @@ Ordem sugerida (do menor para o maior risco): (f) e (a) → (c) só gravando not
 |---|---|
 | projetos-landing-guia | (a) linha "Guia" do DESIGN.md · `regras/pagina-20.md` + `checks/preship.py` antes do push · (f) no `#resumo` · (h) opcional na hero |
 | formato-curso v2/v5/v6 | (a) cada linha já tem tokens; a skill passa a apontar para o DESIGN.md · (f) `regras/texto.md` nas aulas · pontos 1–20 na landing |
+| curso v7.2 (INEMA Learning v7, gerador no repo do curso) | (a) linha "Curso v7.2" (DESIGN.md 5b, V14); copiar `gerar.py` + `assets/v72.css` de `do-chat-ao-agente-v72` · (f) `regras/texto.md` nas aulas |
 | banners (gerar-banner) e thumbviral | (a) linhas Banner/Thumb · (g) pôster a partir de UMA referência · conferir texto da arte |
 
 ## Vídeo

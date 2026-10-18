@@ -20,6 +20,7 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 | V11 | Nome do projeto no banner | Sem azul no live/grade (V6) | Nei pediu "inemaSEO" em azul acima do título | **B — selo azul do nome** (`#3B9EFF`, Sora) acima do título quando o banner cita o projeto/produto; se o nome já está no título, não coloca. `gerar-banner.sh --selo` (formato-curso-inema). (Nei, 13/10/2026) |
 | V12 | Robô na arte | Sem regra; o Codex desenhava robô fofo/cartoon (rosto de tela com olhinhos) | — | **Robô estilo Tesla Optimus ou similar, ou robô realista**; nunca cartoon/mascote. Aplicado no prompt do `thumbviral` (estilos.py). (Nei, 17/10/2026) |
 | V13 | Rosto do robô | V12 não dizia nada sobre a cabeça; o Codex às vezes desenhava a cabeça toda branca, sem visão (banners do diga-o-que-importa 18/10) | — | **Cabeça com área de visão escura**: visor preto, faixa ou linha preta na frente; nunca a cabeça toda branca. Pôr "visor preto na frente da cabeça" no prompt do robô. (Nei, 18/10/2026) |
+| V14 | Visual do curso v7.2 | Kit: título Sora, amarelo `#FACC15`, sem serifa em título (V1/V4) | v7.2 (do-chat-ao-agente-v72): título Fraunces (serifa), dourado `#E9B949`, escuro `#1c1c1f`, papel `#F6F1E7` | **B — v7.2 entra no kit como linha própria** (DESIGN.md 5b): "gostei do v72, pode atualizar no kit". Guia, v2, v5 e v6 continuam com Sora e `#FACC15`. Levar a serifa/dourado para outras linhas só com novo OK. (Nei, 18/10/2026) |
 
 ## Vídeo
 | # | Conflito | Lado A | Lado B | Decisão |
