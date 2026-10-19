@@ -153,6 +153,7 @@ Dono: o gerador do próprio curso (`gerar.py` + `assets/v72.css`). Referência a
 - Página inicial: foto de abertura, números em serifa, aulas como lista editorial com foto e ✓ das feitas.
 - Topo padrão v2 (curso | INEMA.CLUB - PRO; aulas + Aa; sol/lua ao lado do Aa). Barra lateral vira gaveta ☰. Largura até 1160px.
 - og:image continua a capa com texto (`assets/img/capa.jpg`).
+- **Capa do curso v7.2 (V15, 19/10/2026):** padrão = capa do Terminal (`do-chat-ao-agente-terminal-v72/assets/img/capa.jpg`): foto calma e escura, luz neutra, poucos objetos à direita, espaço vazio à esquerda; linha pequena em caixa alta cinza (`CURSO · DEGRAU N DE 4`), título em **serifa branca** em duas linhas, uma linha de apoio em sem serifa, `INEMA.CLUB` com o ponto amarelo. **Sem letra grande amarela/dourada, sem brilho, sem neon, sem ícones de redes.** Texto legível na tela do notebook só se for correto; na dúvida, tela desfocada. Codex image_gen com a capa do Terminal anexada como referência de estilo.
 
 ## 6. Linha Banner (portal, eventos, guias)
 Dono: `gerar-banner.sh` + MEM/feedback_banner_estilo_live, feedback_banner_portal_limpo.
