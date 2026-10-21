@@ -4,6 +4,7 @@ Uma regra por linha, com data. Lido antes de toda peça. Quando o Nei corrigir a
 Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e análises de erro, consolidadas em 10/10/2026.
 
 ## Vídeo — abertura
+- 21/10 — r7ex abrindo com o avatar só na caixinha do canto: o Nei quer o rosto em MEIA tela de baixo no começo (r7ex e r7exp), depois PiP conforme o plano (D16).
 - 21/10 — r7exp completo B: capa "O MUNDO VAI MUDAR. E VOCÊ VAI JUNTO. / SERÁ QUE VOCÊ TEM ESCOLHA?" (amarelo, Ana diante de onda de prédios e robôs): "a capa ficou fraca, não cria impacto" (a A, 5 rostos + 'UM DELES É A EXTINÇÃO' em vermelho, passou). Capa = poucas palavras enormes + UM assunto grande com emoção + contraste alto; frase longa e cena cheia não param o dedo.
 - 20/10 — r7ex "Vamos sobreviver? Qual o caminho?": 5 cenários citados de passagem com uma imagem cada = "muito básico, não é com imagens que passamos conhecimento". Tema com opções → ensinar cada opção (o que é / como se vive / o que leva até lá) + o que fazer, com gráfico animado e personagem: r7exp (D13, proposta).
 - 18/10 — r7e com letra Anton + tarja sobre foto de banco de imagens e diagramas Pillow: "ficou padrão". O padrão viral é o do eventosextremospub (título dentro da arte, preto+amarelo, painéis, contador, karaokê); r7e passa a usar esse motor (D11).

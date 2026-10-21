@@ -53,6 +53,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 - Teste: "eu pararia o dedo aqui?"
 - **reel7etapas (D9, 18/10/2026):** quadro 0 = GATILHO (medo, novidade ou provocação) com fato/número e fonte, imagem do flagrante nítida (sem desfoque), luz dramática liberada no gancho; o ganho/alívio só a partir da etapa 4. Exceção à "capa = ganho" das outras linhas.
 - **reel7etapas (D10, 18/10/2026):** objetivo = público no inema.club; plano (público, ganho/dor/desejo, nota de potencial) antes da fala; rosto desde o quadro 0 em meia tela → PiP; ≥ 2 diagramas/visuais que ensinam; CTA "tá tudo no inema.club, ou me pede o link".
+- **r7ex e r7exp (D16, 21/10/2026):** o rosto ABRE em meia tela no quadro 0 — 9:16 metade de baixo (1080x960 em y 960) na parte 1; 16:9 metade direita até o fim da capa — e depois vai para o PiP, voltando à meia tela onde o plano pedir (`avatar: meia` na parte do r7ex). Título da capa no alto (9:16) ou à esquerda (16:9), fora do rosto.
 
 ### Ritmo
 - Uma ideia por short. (MEM/feedback_shorts_virais)
