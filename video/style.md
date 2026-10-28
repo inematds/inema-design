@@ -62,6 +62,7 @@ MS = `~/.claude/skills/makeshorts`, EXV2 = `~/projetos/explicavideos/engine/v2/A
 - Reengajar perto de 25% e 65% com troca de visual ou ângulo. (spec-visual.md:55)
 - Pelo menos 1 em cada 3 visuais é prova real (print, site, dado). (MS SKILL)
 - Duração: divulgação 20–50s (máx. 59); tutorial 35–60s (máx. 75). ~150 palavras/min. (reel-profiles.json)
+- **r7ex (D18, 28/10/2026):** fala a 160–190 palavras/min (roteiro 450–620 caracteres; a montagem estica até ~182, máx. 12%), ~0,75 s de silêncio (voz + trilha) antes da máxima, e o cartão do comentário segurado 9 s depois da última palavra com o gesto de comentar encenado, avatar congelado, trilha continuando, sem legenda.
 
 ### Texto na tela
 - Legenda palavra a palavra, 1–3 palavras, ≤ 22 caracteres; Montserrat Black, contorno preto 8px, palavra-chave amarelo `#FACC15` (V7, 10/10/2026; antes âmbar `#F5A623`), ≥ 64px. (spec-reel.md:60-64)

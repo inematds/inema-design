@@ -4,6 +4,7 @@ Uma regra por linha, com data. Lido antes de toda peça. Quando o Nei corrigir a
 Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e análises de erro, consolidadas em 10/10/2026.
 
 ## Vídeo — abertura
+- 28/10 — r7ex rápido demais (202–222 palavras/min, sem silêncio) e com o cartão do comentário sumindo em 0,8–1,6 s, cortando na última palavra: fala a 160–190 palavras/min com pausa antes da máxima e cartão segurado 9 s com o gesto de comentar (D18).
 - 22/10 — Reels 9:16 do r7exp com o avatar no meio da tela e o quadro 0 só com o diagrama pequeno (bancos, PHP): o quadro 0 tem que ter título + imagem de impacto, e o avatar fica no terço de baixo o reel inteiro, com os 2/3 de cima para imagens e animações (D17).
 - 21/10 — r7ex abrindo com o avatar só na caixinha do canto: o Nei quer o rosto em MEIA tela de baixo no começo (r7ex e r7exp), depois PiP conforme o plano (D16).
 - 21/10 — r7exp completo B: capa "O MUNDO VAI MUDAR. E VOCÊ VAI JUNTO. / SERÁ QUE VOCÊ TEM ESCOLHA?" (amarelo, Ana diante de onda de prédios e robôs): "a capa ficou fraca, não cria impacto" (a A, 5 rostos + 'UM DELES É A EXTINÇÃO' em vermelho, passou). Capa = poucas palavras enormes + UM assunto grande com emoção + contraste alto; frase longa e cena cheia não param o dedo.
