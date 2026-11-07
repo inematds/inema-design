@@ -69,8 +69,11 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 - Fenômeno natural (tornado, ciclone): imagem realista + sobreposições finas, nunca SVG desenhado. (LESSONS 09/10)
 - Robô na arte (capa, thumb, banner, cena de vídeo): estilo Tesla Optimus ou similar (humanoide industrial, liso, acabamento fosco/metálico) ou robô realista fotográfico. Nunca robô fofo/cartoon, com rosto de tela e olhinhos/emoji, estilo mascote ou brinquedo. (V12, Nei 17/10/2026) A cabeça sempre tem uma área de visão escura (visor preto, faixa ou linha preta na frente); cabeça toda branca, sem visão, é reprovada (V13, Nei 18/10/2026).
 
+### Logo INEMA.club (L1, Nei 07/11/2026)
+Dois arquivos em `marca/`: `logo-inema-club-quadrado.png` (emblema das 3 barras douradas + INEMA.CLUB + "APRENDA. PRATIQUE. EVOLUA.") para lugar quadrado/pequeno, e `logo-inema-club-horizontal.png` (letreiro INEMA.CLUB 3D + frase) para lugar largo. **Sempre estes dois; nunca os dois juntos na mesma peça.** Não redesenhar nem trocar cor; só reduzir. Regras completas: `marca/README.md`.
+
 ### Lacunas conhecidas
-Sem arquivo oficial de logo INEMA; sem raio/sombra e largura máxima definidos para o guia. Ver `DECISOES.md`.
+Sem raio/sombra e largura máxima definidos para o guia. Ver `DECISOES.md`.
 
 ---
 

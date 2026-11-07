@@ -1,6 +1,6 @@
 # Decisões (o Nei escolhe)
 
-**Revisão completa em 10–12/10/2026:** V1–V10, D1–D6 e L1–L5 fechadas. Só L1 aguarda o arquivo do logo. O que mudou em relação ao antes está em `HISTORICO.md`; o que falta aplicar nas skills e motores entra nas etapas 2 (vídeo) e 3 (páginas).
+**Revisão completa em 10–12/10/2026:** V1–V10, D1–D6 e L1–L5 fechadas. L1 fechada em 07/11/2026 (logo em `marca/`). O que mudou em relação ao antes está em `HISTORICO.md`; o que falta aplicar nas skills e motores entra nas etapas 2 (vídeo) e 3 (páginas).
 
 As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando decidir, escreva a escolha na linha e atualize `DESIGN.md` / `video/style.md`. O valor antigo vai para `HISTORICO.md`.
 
@@ -51,7 +51,7 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 - A1 — `checks/preship.py` no modelo `~/.claude/skills/projetos-landing-guia/assets/template.html`: 8/13. Faltam `<main>`, `og:image`, `theme-color`, favicon e width/height nas imagens. Todo guia herda isso (5-mods e crunchlog 8/13; arena-capivara e ata 6/13). Corrigir no modelo é a etapa 3; nada foi alterado.
 
 ## Lacunas (não existe regra escrita)
-- L1 — Arquivo oficial do logo INEMA (SVG/PNG) — não existe ainda. **Por ora a marca é o texto "INEMA.CLUB"**, como já aparece nas peças; o Nei vai passar o logo depois (12/10/2026). Quando chegar: `marca/` no kit + seção no DESIGN.md.
+- L1 — Arquivo oficial do logo INEMA — **FECHADA 07/11/2026:** dois PNG em `marca/` (quadrado com emblema e horizontal), feitos pelo Codex no estilo do banner do site e aprovados pelo Nei: "aprovado … sempre vamos usar estes logos duas imagens, não se usa as duas juntas". Seção "Logo" no DESIGN.md.
 - L2 — Raio, sombra e largura máxima do guia. **Preenchida** pelo que o template já usa (DESIGN.md núcleo, 12/10/2026).
 - L3 — Tamanho mínimo de fonte no guia e no curso v2 (só o v6 tem: 14px). **Preenchida**: leitura ≥ 14px em tudo; rótulo caixa alta ≥ 12px (DESIGN.md núcleo, 12/10/2026).
 - L4 — Paleta dos motores de vídeo próprios (mapa, palco, reais, cardshorts, reelcomenta) só existe no código. **Resolvida**: as paletas estão escritas no DESIGN.md (linha Vídeo) e o amarelo foi unificado na V7; vermelho/verde/azul de dado continuam.
