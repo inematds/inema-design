@@ -14,7 +14,7 @@ título do tópico no Telegram, card do portal, legenda do IG/TikTok, H1 + lead 
 |---|---|---|
 | `dor_ou_desejo` | `dor` ou `desejo`: o que mexe com a pessoa | dor |
 | `quem` | a pessoa, em "você" | você, que pede coisa para a IA ou monta agente |
-| `nucleo` | uma frase: o que a pessoa ganha ou deixa de perder, em língua de gente | "Seu agente nunca mais diz 'pronto' sem prova." |
+| `nucleo` | uma frase: o que a pessoa ganha ou deixa de perder, em língua de gente | "O seu agente nunca mais vai dizer pronto se não tiver provado. É isso que este método e este kit fazem. Vou explicar como." |
 | `por_que_importa` | o que custa hoje, concreto, sem número inventado | "Ele diz 'agendado', o cliente chega e não tem horário." |
 | `metodo` | nome do método/kit **quando o vídeo entrega um**; `null` em notícia, tese, opinião | "prompt com prova" |
 | `formato` | o gatilho da abertura (tabela da seção 2) | acusacao |
@@ -27,7 +27,7 @@ Sem esse bloco, o motor não escreve o roteiro. Se o pedido não traz a dor nem 
 | Formato | Como abre | Exemplo |
 |---|---|---|
 | `acusacao` | revela o que está acontecendo com a pessoa | "Seu agente mente pra você. Diz que fez e não fez." |
-| `promessa` | o ganho, com a garantia verdadeira | "O método para o seu agente nunca mais dizer 'pronto' sem prova." |
+| `promessa` | o ganho, com a garantia verdadeira | "O seu agente nunca mais vai dizer pronto se não tiver provado. É isso que este método faz." |
 | `perda` | o que se perde (real ou hipotético) | "Ele disse 'agendado'. O cliente chegou e não tinha horário." |
 | `contrario` | manda parar o que todo mundo faz | "Pare de pedir 'capriche e me avise'." |
 | `numero` / `estatistica` | número com fonte, que dá medo ou espanto | "O mesmo pedido: nota zero de oito. Com uma mudança, oito de oito." |
@@ -35,8 +35,16 @@ Sem esse bloco, o motor não escreve o roteiro. Se o pedido não traz a dor nem 
 | `nome` | o nome do método como novidade | "Prompt com prova: o método que obriga a IA a mostrar o recibo." |
 | `terceiro` / `noticia` / `provocacao` | (r7ex/rtex) história de alguém, fato da semana, afirmação que cutuca | — |
 
-Promessa só com o que é verdade medida. "Nunca deixa de fazer" é promessa que o kit não cumpre; "nunca mais diz pronto sem
-prova" é.
+Promessa só com o que é verdade medida.
+
+**Fala de gente, não manchete (Nei, 12/11/2026):** "'nunca mais diz pronto sem prova' não consegue ser claro para as
+pessoas se você não disser 'o agente nunca mais vai dizer pronto se não tiver provado', é isso que este método e kit
+fazem, vou explicar como". O `nucleo` e a 1ª fala são frase completa, como se fala com alguém:
+1. **sujeito + ação + condição concreta** ("o seu agente / nunca mais vai dizer pronto / se não tiver provado"), sem
+   frase comprimida de cartaz ("nunca mais diz pronto sem prova") nem substantivo abstrato no lugar do verbo ("sem prova");
+2. **ponte** para o que a pessoa leva ("é isso que este método e este kit fazem");
+3. **convite** que segura ("vou explicar como").
+A manchete do quadro 0 e o título podem ser curtos, mas saem dessa frase e não a substituem na fala.
 
 ## 3. Regras que valem em todo motor
 
