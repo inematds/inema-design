@@ -67,10 +67,11 @@ Nei, 12/11/2026: "no CTA não deve pedir para a pessoa colocar palavra ou link; 
 
 | Motor | Onde | Trava |
 |---|---|---|
-| explicavideo | `prompts/bot-ficha.md` (bloco `chamada.json`) | `engine/v2/checar_chamada.py` antes do avatar (`bot/avatar.sh`) |
-| r7ex | `PADRAO.md`, `producao/critico-plano.md`, `COMO-PEDIR.md` | `r7ex.py checar` (tipos promessa/acusacao, CTA novo) + crítico |
-| rtex | `prompts/critico.md` | `rtex.py checar` (tipos promessa/acusacao) + crítico |
-| refazvideo | `AGENTS.md` (re-tese da abertura) | — (pendente) |
+| explicavideo | `prompts/bot-ficha.md` (bloco `chamada.json`) | `engine/v2/checar_chamada.py` (forma: fala, tela do fecho, título, yt.txt) antes do avatar (`bot/avatar.sh` e `roda.sh` da sessão) + `engine/v2/critico_chamada.py` (atenção, `claude -p`, nota ≥ 7; até 2 rodadas, não bloqueia) |
+| r7ex | `PADRAO.md` §2.3, `producao/critico-plano.md`, `prompts/bot-ficha.md`, `modelo/ficha.yaml`, `COMO-PEDIR.md` | `r7ex.py checar` (tipos promessa/acusacao, fala 7 e `cta.a/b/comentario`) + crítico do plano (teste dos 15 s) |
+| rtex | `prompts/bot-ficha.md`, `prompts/critico.md` | `rtex.py checar` (tipos promessa/acusacao) + crítico (teste dos 15 s) |
+| refazvideo | `AGENTS.md` passo 4 (re-tese da abertura, `$OUT/chamada.json`) | `checar_chamada.py --roteiro … --sem-titulo` + `critico_chamada.py` antes do avatar |
 | guia (`projetos-landing-guia`) | hero + `#resumo` | revisor |
-| portal / Telegram / Metricool | título e legenda saem do `nucleo` | — |
+| portal / Telegram / Metricool | `atualiza-portal`, `postar-telegram`: título e legenda saem do `nucleo` | — |
+| ainda sem a regra | rtexjp, reel7etapas, cardshorts, makeshorts (o "funil comente PALAVRA" contraria o §4), eventosextremos/clima, radar viral | pendente (`wifi/pendencias.md`, 12/11) |
 | revisor independente | `~/.claude/runbooks/revisor-independente.md` | pergunta dos 15 s |
