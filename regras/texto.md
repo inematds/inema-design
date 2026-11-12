@@ -9,6 +9,8 @@ Fonte: Claude Design Blueprint, hack 12 — "AI tells checklist" (SlopMonster, g
 - Número e nome no lugar de adjetivo ("38% do orçamento", não "boa parte").
 - Sem emoji e sem "!!" em curso v6. Travessão: no máximo um por frase.
 
+Chamada (abertura, título, manchete, H1, CTA): `regras/chamada.md` (D20) — clareza não basta, a 1ª coisa tem de mexer na dor ou no desejo.
+
 ## Aberturas proibidas (roteiro, fala, primeira frase de página)
 - "Imagine que…", "Pense num…", "Se você…" — a 1ª frase é a de impacto, nomeando o sujeito. (AUTHORING.md:104; LESSONS 08/10)
 - "Neste momento…", "Então…" no início do gancho. (LESSONS 08/10)

@@ -22,6 +22,7 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 - Promessa verificável antes do conceito; analogia do mundo real. (v5 CONTEUDO-40MAIS.md:13)
 - Sem hype ("revolucionar"), sem condescendência, sem "!!". (v5 :96; v6 :21)
 - Regras de frase e palavras proibidas: `regras/texto.md`.
+- Chamada (dor/desejo nos primeiros 15 s, método com nome, CTA sem pedir palavra nem link): `regras/chamada.md` (D20).
 
 ### Cor sem significado sozinha
 - Nunca passar informação só por cor; sempre rótulo ou ícone junto. (V5-DESIGN.md:18; V6-DESIGN.md:15)

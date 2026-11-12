@@ -4,6 +4,7 @@ Uma regra por linha, com data. Lido antes de toda peça. Quando o Nei corrigir a
 Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e análises de erro, consolidadas em 10/10/2026.
 
 ## Vídeo — abertura
+- 12/11 — explicavideo escrita-e-engenharia (lives3): abriu com "Imagina…" e "Neste vídeo…", listou 8 técnicas com rótulos de engenharia ("um dono para cada coisa", "número sensível com nome"), nunca disse o nome do método ("prompt com prova"), título "8 frases que…" e CTA "Comenta PROVA". Nei: "não consegue mostrar importância, fala em linguagem técnica, mais para máquina do que para pessoas… não adianta estar claro e correto se não chama atenção, não mexe na dor ou desejo". Regra D20 / `regras/chamada.md`.
 - 28/10 — rtexjp roxo/lilás: "roxo não é profissional" (Nei, 28/10/2026: "eu não quero ele roxo, quero ele uma cor profissional"). rtexjp passa a azul-marinho + azul-aço, amarelo `#FACC15` como única cor quente (D19).
 - 28/10 — r7ex rápido demais (202–222 palavras/min, sem silêncio) e com o cartão do comentário sumindo em 0,8–1,6 s, cortando na última palavra: fala a 160–190 palavras/min com pausa antes da máxima e cartão segurado 9 s com o gesto de comentar (D18).
 - 22/10 — Reels 9:16 do r7exp com o avatar no meio da tela e o quadro 0 só com o diagrama pequeno (bancos, PHP): o quadro 0 tem que ter título + imagem de impacto, e o avatar fica no terço de baixo o reel inteiro, com os 2/3 de cima para imagens e animações (D17).
