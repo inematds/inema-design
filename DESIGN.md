@@ -100,6 +100,7 @@ Sem raio/sombra e largura máxima definidos para o guia. Ver `DECISOES.md`.
 - Hero: banner 16:9 (1400px JPG) estilo live; segundo banner "grade" no início de "O que é". (SKILL :252-262; MEM/feedback_banner_estilo_live)
 - `#resumo`: 3–5 frases, 50–100 palavras, logo abaixo da hero. (SKILL :16-22)
 - Sempre PT + `guia/en/` + `guia/es/`.
+- **Ordem (V16, 12/11/2026):** entendimento em cima (resumo do assunto, vídeo, fontes, gráficos explicados, plano de ação), depois o divisor `#tecnico` e a zona técnica com fundo `--bg2` (o kit, como funciona, pré-requisitos, guia de uso, números, roadmap). Nav: seções de entendimento + "Kit (técnico)". Nada de comando na parte de cima. (SK/projetos-landing-guia SKILL "Entendimento em cima")
 
 ## 3. Linha Curso v2 ("inema-dark", Tailwind)
 Dono: SK/formato-curso-v2 (SKILL.md, DESIGN-SYSTEM.md).
