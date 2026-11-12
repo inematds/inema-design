@@ -44,7 +44,13 @@ fazem, vou explicar como". O `nucleo` e a 1ª fala são frase completa, como se 
    frase comprimida de cartaz ("nunca mais diz pronto sem prova") nem substantivo abstrato no lugar do verbo ("sem prova");
 2. **ponte** para o que a pessoa leva ("é isso que este método e este kit fazem");
 3. **convite** que segura ("vou explicar como").
-A manchete do quadro 0 e o título podem ser curtos, mas saem dessa frase e não a substituem na fala.
+A manchete do quadro 0 e o título saem dessa frase e não a substituem na fala.
+
+**Manchete clara e completa (Nei, 12/11/2026):** "manchete tem que ser objetiva mas clara… uma informação clara e
+entendida, e aí vamos atrás de detalhes". Quem lê SÓ a manchete, sem som, entende o que acontece (quem + o quê).
+- ❌ "IA COM PROVA" (enigmática) · ❌ "NUNCA MAIS DIZ PRONTO SEM PROVA" (sem sujeito)
+- ✅ "SUA IA DIZ 'PRONTO' SEM TER FEITO" (o problema) · ✅ "SEU AGENTE SÓ VAI DIZER PRONTO DEPOIS DE PROVAR" (a promessa)
+- Até 9 palavras (r7ex/rtex avisam acima de 6 para conferir a capa). Clareza vale mais que ser curta ou "agressiva".
 
 ## 3. Regras que valem em todo motor
 
