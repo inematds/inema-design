@@ -81,7 +81,7 @@ Nei, 12/11/2026: "no CTA não deve pedir para a pessoa colocar palavra ou link; 
 
 | Motor | Onde | Trava |
 |---|---|---|
-| explicavideo | `prompts/bot-ficha.md` (bloco `chamada.json`) | `engine/v2/checar_chamada.py` (forma: fala, tela do fecho, título, yt.txt) antes do avatar (`bot/avatar.sh` e `roda.sh` da sessão) + `engine/v2/critico_chamada.py` (atenção, `claude -p`, nota ≥ 7; até 2 rodadas, não bloqueia) |
+| explicavideo | `prompts/bot-ficha.md` (bloco `chamada.json`) | `engine/v2/checar_chamada.py` (forma: fala, tela do fecho, título, yt.txt) antes do avatar (`bot/avatar.sh` e `roda.sh` da sessão) + `engine/v2/critico_chamada.py` (atenção, `claude -p`, nota ≥ 7; até 2 rodadas e depois BARRA, também no `bot/avatar.sh`, desde a 2.27.11; escape `CRITICO_SEGUE=1`) |
 | r7ex | `PADRAO.md` §2.3, `producao/critico-plano.md`, `prompts/bot-ficha.md`, `modelo/ficha.yaml`, `COMO-PEDIR.md` | `r7ex.py checar` (tipos promessa/acusacao, fala 7 e `cta.a/b/comentario`) + crítico do plano (teste dos 15 s) |
 | rtex | `prompts/bot-ficha.md`, `prompts/critico.md` | `rtex.py checar` (tipos promessa/acusacao) + crítico (teste dos 15 s) |
 | refazvideo | `AGENTS.md` passo 4 (re-tese da abertura, `$OUT/chamada.json`) | `checar_chamada.py --roteiro … --sem-titulo` + `critico_chamada.py` antes do avatar |
