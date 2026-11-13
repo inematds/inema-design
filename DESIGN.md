@@ -99,7 +99,7 @@ Sem raio/sombra e largura máxima definidos para o guia. Ver `DECISOES.md`.
 - Fontes: **Sora** (títulos, nav, botões, chips), **Inter** (corpo), **JetBrains Mono** (código). (template.html:17,35,37)
 - Chip: caixa alta, letter-spacing .14em. (template.html:40)
 - Hero: banner 16:9 (1400px JPG) estilo live; segundo banner "grade" logo abaixo do `#resumo`, no topo, explicando o projeto (V17, 12/11/2026; antes no início de "O que é"). (SKILL :252-262; MEM/feedback_banner_estilo_live)
-- Vídeo explicativo obrigatório: seção `#video` logo depois do `#resumo`, com o explicavideo do projeto (explicavideos v2 + avatar do Nei) em embed 16:9, nos 3 idiomas; até sair, marca `<!-- VIDEO: … -->` e a fase 2 do vídeo coloca o embed. Guia sem vídeo = não está pronto (D21, Nei 13/11/2026). (SK/projetos-landing-guia)
+- Vídeo explicativo obrigatório: seção `#video` logo depois do `#resumo`, com o explicavideo do projeto (explicavideos v2 + avatar do Nei) em embed 16:9, nos 3 idiomas; até sair, marca `<!-- VIDEO: … -->` e a fase 2 do vídeo coloca o embed. O guia sai quando o projeto está pronto e o vídeo entra depois, quando publicado: um não tranca o outro (D21, Nei 13/11/2026). (SK/projetos-landing-guia)
 - `#resumo`: 3–5 frases, 50–100 palavras, logo abaixo da hero. (SKILL :16-22)
 - Sempre PT + `guia/en/` + `guia/es/`.
 - **Ordem (V16, 12/11/2026):** entendimento em cima (resumo do assunto, vídeo, fontes, gráficos explicados, plano de ação), depois o divisor `#tecnico` e a zona técnica com fundo `--bg2` (o kit, como funciona, pré-requisitos, guia de uso, números, roadmap). Nav: seções de entendimento + "Kit (técnico)". Nada de comando na parte de cima. (SK/projetos-landing-guia SKILL "Entendimento em cima")
