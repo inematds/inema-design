@@ -14,7 +14,7 @@ Abreviações: SK = `~/.claude/skills`, MEM = memórias do projeto wifi, LESSONS
 INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEMA.CLUB), sem hype, com prova real e a voz do Nei.
 
 ### Público
-- Cursos v5: 40+ leigo. Cursos v6: iniciante 30+. Guias: quem quer usar o projeto. (SK/formato-curso-v5, v6)
+- Cursos v5: 40+ leigo. Cursos v6: iniciante 30+. Guias: o leigo que quer saber como o projeto muda o dia dele. Guia = orientação e convencimento (texto + visual), sem nada técnico; a instalação técnica fica no README; "como começar" = colar um pedido para a IA (Claude Code ou Codex) analisar o projeto. (Nei, 17/11/2026; SK/projetos-landing-guia)
 - Projetos de negócio em EN/ES: ES = América Latina, EN = global. (MEM/feedback_idioma_e_mercado)
 
 ### Voz
