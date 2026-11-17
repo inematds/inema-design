@@ -109,6 +109,19 @@ cheia que um gestor entende, ele no canto, e "faz um ano que eu falo disso: a id
 5. **Verificação:** o `checar` reprova posição sem gancho de opinião e abertura morna; o crítico dá nota de **pressão**
    (calmo = gancho ≤ 6, que não passa o portão de 8); o revisor final dá nota ao quadro 0 pelo leigo em 1 s.
 
+## 2c. Fluência primeiro: a fala soa como o Nei, a explicação se vê (D26, Nei, 17/11/2026)
+
+Caso: o enxame v2 começou bem, mas "parece não tem fluência, não parece natural eu falando", "a explicação não" e "o
+final mal entra sobre pergunta e CTA misturando". Regras para todo reel com avatar (r7ex, rtex):
+1. **Velocidade natural.** Nunca esticar nem acelerar o avatar; nunca deixar o rosto congelado na tela (pausa ou cauda).
+2. **Fala de gente.** Frases ligadas, como o Nei fala; nada de lista telegráfica ("lê tudo, fala, refaz"). O tamanho
+   é flexível (r7ex: objetivo 620, teto 900 caracteres): fluência vale mais que caber.
+3. **Explicação que se vê.** A parte que explica traz uma comparação do dia a dia que um gestor sem IA entende e uma tela
+   que a mostra: imagem concreta ou diagrama com poucas peças grandes. Abstração sem exemplo não explica.
+4. **Imagem também.** O teste do leigo (§2b) vale para toda imagem, não só a capa; print não se repete nem contradiz o gancho.
+5. **Cada coisa na sua hora.** Quadro entra na palavra que mostra; no fecho, um elemento por vez: inema.club na fala →
+   pergunta depois da última palavra → comentário.
+
 ## 3. Regras que valem em todo motor
 
 1. **Primeiros 15 s (~45 palavras):** a dor ou o desejo, falado em "você". Quem assiste sabe qual é o problema e que é com ele.
