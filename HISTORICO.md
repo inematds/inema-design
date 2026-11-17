@@ -43,3 +43,5 @@ Cada decisão do `DECISOES.md` ganha uma linha aqui com o valor antigo. As pági
 - 07/11/2026 · Logo (L1): antes não havia arquivo; a marca era só o texto "INEMA.CLUB" nas peças. Agora: os dois PNG de `marca/`.
 
 - 16/11/2026 (D22): antes, explicavideos viral fazia zoom 1,05→1,18 por foto com "pontos" que saltavam a 1,18 em 0,55 s e voltavam; diagrama aproximava 1,16 e voltava; rtexjp tinha respiração `resp` (±0,6% contínuo + tremor de abertura). Tudo removido.
+
+- 17/11/2026 (D23): antes, a "prévia" do explicativo (correcoes 08/10) era lida como sumário dos blocos e podia trocar de assunto a cada frase; número podia ir arredondado ("milhares"); título em pergunta sem obrigação de resposta no fecho; nada impedia a sessão de trocar persona/pedido do crítico. Agora: escada, número exato, resposta no fecho, crítico intocável na sessão. Peça publicada antes (fim da universidade, lives11, 16/11) não muda.

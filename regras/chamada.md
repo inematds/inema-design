@@ -34,6 +34,7 @@ Sem esse bloco, o motor não escreve o roteiro. Se o pedido não traz a dor nem 
 | `pergunta` | pergunta sobre a vida da pessoa | "Quantas vezes a IA te disse 'feito' sem ter feito?" |
 | `nome` | o nome do método como novidade | "Prompt com prova: o método que obriga a IA a mostrar o recibo." |
 | `terceiro` / `noticia` / `provocacao` | (r7ex/rtex) história de alguém, fato da semana, afirmação que cutuca | — |
+| `escada` | pergunta-tese → autoridade → ação com número → promessa em "você" (ver "Abertura em escada", D23) | "O fim da universidade chegou? Agora o MIT também questiona o modelo de educação. E a China já cancelou ou suspendeu mais de doze mil programas de graduação…" |
 
 Promessa só com o que é verdade medida.
 
@@ -52,6 +53,27 @@ entendida, e aí vamos atrás de detalhes". Quem lê SÓ a manchete, sem som, en
 - ✅ "SUA IA DIZ 'PRONTO' SEM TER FEITO" (o problema) · ✅ "SEU AGENTE SÓ VAI DIZER PRONTO DEPOIS DE PROVAR" (a promessa)
 - Até 9 palavras (r7ex/rtex avisam acima de 6 para conferir a capa). Clareza vale mais que ser curta ou "agressiva".
 
+**Abertura em escada, nunca sumário (D23, Nei, 17/11/2026).** Caso: explicavideo "O fim da universidade chegou?"
+(lives11, 16/11). A abertura empilhou 6 assuntos em ~20 s ("seu filho", "a IA entrega relatórios", "o diploma precisa
+provar", "o MIT quer mudar", "a China cancelou milhares", "no fim você vai ver…"), cada um ~1 s, e diluiu os números
+(12.200 virou "milhares"). Nei: "a introdução de fala ficou ruim, o resto ficou bom… a chamada não é impactante"; e
+propôs: "eu deixaria assim: o fim da universidade chegou? agora o MIT também questiona o modelo de educação, a China…
+e assim eu veria muito mais possibilidade viral. E pode até no final do resumo: veja o que deve mudar. E aí fala do
+assunto do vídeo." (erros de digitação corrigidos)
+1. **Uma linha de raciocínio só.** Cada frase aumenta o peso da anterior e não troca de assunto. A ordem que funciona:
+   **pergunta ou tese** → **autoridade** ("agora o MIT também…") → **ação com número** ("e a China já…") → **promessa em
+   "você"** ("se você estuda, ensina ou paga uma faculdade, fica até o final: eu mostro o que vai valer no lugar da nota").
+   Primeiro quem fala, depois quem já fez.
+2. **Prévia ≠ sumário.** A "prévia" de `correcoes.md` (08/10) é essa escada. Listar os blocos do vídeo não é prévia.
+   Frase-tese abstrata ("o diploma precisa provar o que a pessoa consegue fazer") fica no corpo, não na escada.
+3. **Número exato, nunca diluído.** Se o fato tem número com fonte, ele vai inteiro ("mais de doze mil programas"),
+   nunca "milhares". Para ter cautela, diga o fato exato e certo, sem enfraquecê-lo; a ressalva vai no corpo.
+4. **Título em pergunta exige resposta no fecho.** Quem pergunta "o fim de X chegou?" responde com todas as letras antes
+   do CTA ("A universidade não acabou. O que está acabando é a nota que só mede entrega."). Sem resposta, o título vira
+   caça-clique e o público cobra nos comentários.
+5. **Pergunta na manchete só com informação logo atrás.** Quadro 0 com a pergunta pode; em até ~3 s entra a manchete
+   informativa (quem + o quê, ex.: "MIT E CHINA JÁ MEXERAM NA FACULDADE"), para quem vê sem som.
+
 ## 3. Regras que valem em todo motor
 
 1. **Primeiros 15 s (~45 palavras):** a dor ou o desejo, falado em "você". Quem assiste sabe qual é o problema e que é com ele.
@@ -63,6 +85,14 @@ entendida, e aí vamos atrás de detalhes". Quem lê SÓ a manchete, sem som, en
 5. **Aberturas proibidas** (já em `texto.md`): "Imagine…", "Pense num…", "Neste vídeo…", "Hoje vamos falar…", "Você sabia…", "Eu fiz…".
 6. **Teste dos 15 s (crítico/revisor):** "lendo só a chamada ou ouvindo os primeiros 15 s, um desconhecido sabe qual é o problema,
    que é com ele, por que importa, e o nome da solução (se houver)?" Não → nota baixa e `melhorar` com a chamada reescrita.
+   Desde a D23, o crítico também reprova a abertura que troca de assunto a cada frase (sumário em vez de escada) e o
+   título em pergunta sem resposta no fecho.
+7. **O crítico não se ajusta dentro da sessão (D23).** Quem escreveu a peça não troca a persona, não reescreve o pedido,
+   não acrescenta "preserve a abertura/pergunta" e não troca o motor do crítico (ex.: Codex no lugar do `critico_chamada.py`).
+   Caso: em "O fim da universidade chegou?" (16/11), a sessão trocou a persona padrão e acrescentou "A pergunta de capa foi
+   pedida pelo responsável editorial e deve ser preservada"; o crítico deu 9/10 e uma abertura fraca passou. Se o
+   público for outro, a persona muda **no arquivo do motor, com commit** e com o motivo, nunca num script da sessão.
+   Pedido do Nei para manter uma frase vale para a frase, não para a nota: o crítico avalia a abertura inteira mesmo assim.
 
 ## 4. CTA (fecho): engajamento natural, sem pedir palavra nem link
 

@@ -4,6 +4,7 @@ Uma regra por linha, com data. Lido antes de toda peça. Quando o Nei corrigir a
 Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e análises de erro, consolidadas em 10/10/2026.
 
 ## Vídeo — abertura
+- 17/11 — explicavideo "O fim da universidade chegou?" (lives11, 16/11): abertura falada = sumário de 6 assuntos em ~20 s ("seu filho", "a IA entrega relatórios", "o diploma precisa provar", "o MIT quer mudar", "a China cancelou milhares", "no fim você vai ver…"), número diluído (12.200 → "milhares"), manchete em pergunta sem informação atrás; o resto do vídeo passou. Nei: "a introdução de fala ficou ruim, o resto ficou bom… a chamada não é impactante". O crítico deu 9/10 porque a sessão trocou a persona e mandou "preservar a pergunta de capa". Abertura = escada (pergunta → "agora o MIT também…" → "a China já…" com número → promessa em você), resposta ao título no fecho, crítico intocável (D23, `regras/chamada.md`).
 - 12/11 — manchete "IA COM PROVA" / "NUNCA MAIS DIZ PRONTO SEM PROVA": "a sua manchete não é clara, as pessoas não entendem; manchete tem que ser objetiva mas clara… uma informação clara e entendida e aí vamos atrás de detalhes". Manchete = informação inteira, quem + o quê (chamada.md).
 - 12/11 — explicavideo escrita-e-engenharia (lives3): abriu com "Imagina…" e "Neste vídeo…", listou 8 técnicas com rótulos de engenharia ("um dono para cada coisa", "número sensível com nome"), nunca disse o nome do método ("prompt com prova"), título "8 frases que…" e CTA "Comenta PROVA". Nei: "não consegue mostrar importância, fala em linguagem técnica, mais para máquina do que para pessoas… não adianta estar claro e correto se não chama atenção, não mexe na dor ou desejo". Regra D20 / `regras/chamada.md`.
 - 28/10 — rtexjp roxo/lilás: "roxo não é profissional" (Nei, 28/10/2026: "eu não quero ele roxo, quero ele uma cor profissional"). rtexjp passa a azul-marinho + azul-aço, amarelo `#FACC15` como única cor quente (D19).
@@ -20,7 +21,7 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 08/10 — Todo vídeo longo precisa de gancho; abrir com mapa e "Neste momento…" foi reprovado (docflow).
 - 08/10 — Frame 0 vazio na trilogia gestão de agentes: cena 1 abre com shot `hook` em `@start`.
 - 08/10 — Gancho: texto dentro da imagem gerada, não sobreposto; abertura < 5s = uma imagem; a fala nomeia o sujeito.
-- 08/10 — Explicativo/refazvideo: capa de impacto + prévia + "no fim: …".
+- 08/10 — Explicativo/refazvideo: capa de impacto + prévia + "no fim: …". Prévia = escada de uma linha só, nunca sumário dos blocos (D23, 17/11).
 
 ## Vídeo — imagem, câmera, transição
 - 15/10 — Avatar em tela cheia reprovado em todos os formatos: no máximo meia tela; 9:16 = meio → PiP (D8).
