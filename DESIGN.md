@@ -66,6 +66,7 @@ INEMA ensina IA na prática, de graça, para gente comum: conteúdo aberto (INEM
 ### Arte gerada
 - Capa, hero, cena de curso e thumb: Codex image_gen pela assinatura; flux2-klein é reserva. (MEM/feedback_capa_guia_codex; V6-DESIGN.md:93)
 - Texto da arte (gancho, thumb): desenhado DENTRO da imagem pelo Codex, não sobreposto. (MEM/feedback_thumb_viral_codex; LESSONS 08/10)
+- Capa do quadro 0 de reel (r7ex, rtex): cena CHOCANTE do Codex image_gen (o momento da perda/quebra ou o "depois"), manchete desenhada dentro; nunca anúncio calmo nem a solução pronta. Prova `capa/abertura.codex.json` obrigatória: o render recusa sem ela. (D24, 17/11/2026)
 - Conferir o texto que a IA escreveu na imagem antes de publicar ("entomo", "specifiication", "inemafds" já passaram). (SKILL landing :302-303)
 - Fenômeno natural (tornado, ciclone): imagem realista + sobreposições finas, nunca SVG desenhado. (LESSONS 09/10)
 - Robô na arte (capa, thumb, banner, cena de vídeo): estilo Tesla Optimus ou similar (humanoide industrial, liso, acabamento fosco/metálico) ou robô realista fotográfico. Nunca robô fofo/cartoon, com rosto de tela e olhinhos/emoji, estilo mascote ou brinquedo. (V12, Nei 17/10/2026) A cabeça sempre tem uma área de visão escura (visor preto, faixa ou linha preta na frente); cabeça toda branca, sem visão, é reprovada (V13, Nei 18/10/2026).
