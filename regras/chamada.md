@@ -71,6 +71,11 @@ assunto do vídeo." (erros de digitação corrigidos)
 4. **Título em pergunta exige resposta no fecho.** Quem pergunta "o fim de X chegou?" responde com todas as letras antes
    do CTA ("A universidade não acabou. O que está acabando é a nota que só mede entrega."). Sem resposta, o título vira
    caça-clique e o público cobra nos comentários.
+   **Responder não basta: o corpo entrega o novo (Nei, 17/11/2026).** Se a isca fala de mudança, tecnologia ou futuro, a
+   resposta mostra o que passa a ser possível com a novidade, nunca o óbvio nem a volta ao método antigo ("o que falou
+   no vídeo é o óbvio, mas não tem a ver com a tecnologia e sim voltando atrás, como era feito antes, prova oral").
+   Teste: cada passo da resposta seria possível sem a novidade? Se sim, reescreva. O crítico cobra isso na pergunta
+   `entrega` (explicavideos 2.30.11).
 5. **A isca faz parte do jogo (Nei, 17/11/2026).** "Tem que entender que isca faz parte do jogo, como no caso é o fim da
    universidade, porque faz a pessoa parar para ver, e aí continuamos provocando a escada… se não, nada vai vingar nas
    redes." Provocação forte no título, na capa e na 1ª frase ("O fim da universidade chegou?") é desejada, não defeito.
@@ -117,7 +122,7 @@ Nei, 12/11/2026: "no CTA não deve pedir para a pessoa colocar palavra ou link; 
 
 | Motor | Onde | Trava |
 |---|---|---|
-| explicavideo | `prompts/bot-ficha.md` (bloco `chamada.json`) | `engine/v2/checar_chamada.py` (forma: fala, tela do fecho, título, yt.txt) antes do avatar (`bot/avatar.sh` e `roda.sh` da sessão) + `engine/v2/critico_chamada.py` (atenção, `claude -p`, nota ≥ 7; até 2 rodadas e depois BARRA, também no `bot/avatar.sh`, desde a 2.27.11; escape `CRITICO_SEGUE=1`; D23 desde a 2.29.11: abertura até o fim da frase, 3 leituras com maioria, persona do `publico` do pedido.json, perguntas `escada` e `paga`, isca não pune) |
+| explicavideo | `prompts/bot-ficha.md` (bloco `chamada.json`) | `engine/v2/checar_chamada.py` (forma: fala, tela do fecho, título, yt.txt) antes do avatar (`bot/avatar.sh` e `roda.sh` da sessão) + `engine/v2/critico_chamada.py` (atenção, `claude -p`, nota ≥ 7; até 2 rodadas e depois BARRA, também no `bot/avatar.sh`, desde a 2.27.11; escape `CRITICO_SEGUE=1`; D23 desde a 2.29.11: abertura até o fim da frase, 3 leituras com maioria, persona do `publico` do pedido.json, perguntas `escada` e `paga`, isca não pune; 2.30.11: pergunta `entrega`, o corpo cumpre a isca com algo novo) |
 | r7ex | `PADRAO.md` §2.3, `producao/critico-plano.md`, `prompts/bot-ficha.md`, `modelo/ficha.yaml`, `COMO-PEDIR.md` | `r7ex.py checar` (tipos promessa/acusacao, fala 7 e `cta.a/b/comentario`) + crítico do plano (teste dos 15 s) |
 | rtex | `prompts/bot-ficha.md`, `prompts/critico.md` | `rtex.py checar` (tipos promessa/acusacao) + crítico (teste dos 15 s) |
 | refazvideo | `AGENTS.md` passo 4 (re-tese da abertura, `$OUT/chamada.json`) | `checar_chamada.py --roteiro … --sem-titulo` + `critico_chamada.py` antes do avatar |
