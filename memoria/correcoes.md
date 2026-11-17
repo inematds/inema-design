@@ -72,4 +72,4 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 
 - 16/11/2026 — vídeo "o fim do software de escritório" (explicavideos, Codex): Nei reprovou zoom que entra e sai rápido na mesma imagem (tela tremida), texto empilhado sobre a foto e telas pretas com caixinhas. Ver D22.
 - 17/11/2026 — reel do enxame v2 (r7ex, lives4): sem fluência (avatar esticado + quadro congelado + fala telegráfica), explicação abstrata em tela vazia, fecho com pergunta/inema.club/comentário juntos e print com a frase calma antiga. Regra: `regras/chamada.md` §2c (D26).
-| 17/11/2026 | guia de projeto | guia com zona técnica, nome por metáfora ("fora do volante") | Nei: nome e texto sem clareza; técnica vai para o README (D27) |
+- 17/11/2026 — guia de projeto (fora do volante → IA sem estrago): nome por metáfora e guia com zona técnica, "sem clareza"; agora o guia é só orientação e convencimento e a parte técnica fica no README (D27).
