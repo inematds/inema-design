@@ -85,6 +85,30 @@ assunto do vídeo." (erros de digitação corrigidos)
 6. **Pergunta na manchete só com informação logo atrás.** Quadro 0 com a pergunta pode; em até ~3 s entra a manchete
    informativa (quem + o quê, ex.: "MIT E CHINA JÁ MEXERAM NA FACULDADE"), para quem vê sem som.
 
+## 2b. Nunca calmo: gancho de imagem e de narração (D25, Nei, 17/11/2026)
+
+Nei: "nenhum vídeo tem que sair calmo; r7ex ou rtex não são vídeos calmos, são vídeos provocativos, são virais e têm que
+ter gancho, fonte de imagem e de narração". Caso: r7ex "Enxame de agentes pode quebrar sua empresa" (lives4, 17/11). A
+tese era opinião do Nei ("a ideia é genial, a conta não"), mas a fala virou notícia neutra ("Você pensou em montar um
+enxame? A Anthropic mediu…"), a capa era metáfora (prédio devorado por robôs) em meia tela e o público era "quem vê vídeo
+de enxame" (nicho). O crítico deu 8 ao gancho. O que o Nei queria: ESQUEÇA OS ENXAMES em letra gigante, imagem em tela
+cheia que um gestor entende, ele no canto, e "faz um ano que eu falo disso: a ideia é boa, mas o custo é proibitivo".
+
+1. **Gancho de imagem:** o quadro 0 se entende em 1 s por quem não sabe de IA (gestor, dono de empresa, a mãe): uma cena
+   concreta do mundo da pessoa (taxímetro girando em R$, fatura, sala de reunião, celular travado), não metáfora que pede
+   para pensar. Manchete curta que manda, acusa ou contradiz ("ESQUEÇA OS ENXAMES"), não aviso morno.
+2. **Gancho de narração:** a 1ª frase **afirma com pressão** (ordem, acusação, contradição, número que dói). Pergunta
+   morna de abertura ("Você pensou em…?", "Já imaginou…?", "Você já ouviu falar…?") e tom de notícia neutra são
+   reprovados. Pergunta só se cutuca ("O fim da universidade chegou?", D23).
+3. **A posição do Nei vai na boca dele:** quando a tese é opinião do Nei, o brief/ficha tem `posicao` com as palavras dele
+   em 1ª pessoa, e a fala abre com ela (`contrario`, `provocacao` ou `acusacao`). "Eu" de opinião pode ("faz um ano que
+   eu falo disso", "eu não sei por que ainda vendem isso"); "eu fiz/criei" continua proibido. Estatística vira prova logo
+   depois, não abertura.
+4. **Público com nível:** `pessoa` diz quem é e quanto sabe de IA ("gestor que nunca rodou um agente"); a imagem e a fala
+   passam no teste do leigo.
+5. **Verificação:** o `checar` reprova posição sem gancho de opinião e abertura morna; o crítico dá nota de **pressão**
+   (calmo = gancho ≤ 6, que não passa o portão de 8); o revisor final dá nota ao quadro 0 pelo leigo em 1 s.
+
 ## 3. Regras que valem em todo motor
 
 1. **Primeiros 15 s (~45 palavras):** a dor ou o desejo, falado em "você". Quem assiste sabe qual é o problema e que é com ele.
@@ -123,8 +147,8 @@ Nei, 12/11/2026: "no CTA não deve pedir para a pessoa colocar palavra ou link; 
 | Motor | Onde | Trava |
 |---|---|---|
 | explicavideo | `prompts/bot-ficha.md` (bloco `chamada.json`) | `engine/v2/checar_chamada.py` (forma: fala, tela do fecho, título, yt.txt) antes do avatar (`bot/avatar.sh` e `roda.sh` da sessão) + `engine/v2/critico_chamada.py` (atenção, `claude -p`, nota ≥ 7; até 2 rodadas e depois BARRA, também no `bot/avatar.sh`, desde a 2.27.11; escape `CRITICO_SEGUE=1`; D23 desde a 2.29.11: abertura até o fim da frase, 3 leituras com maioria, persona do `publico` do pedido.json, perguntas `escada` e `paga`, isca não pune; 2.30.11: pergunta `entrega`, o corpo cumpre a isca com algo novo) |
-| r7ex | `PADRAO.md` §2.3, `producao/critico-plano.md`, `prompts/bot-ficha.md`, `modelo/ficha.yaml`, `COMO-PEDIR.md` | `r7ex.py checar` (tipos promessa/acusacao, fala 7 e `cta.a/b/comentario`) + crítico do plano (teste dos 15 s) |
-| rtex | `prompts/bot-ficha.md`, `prompts/critico.md` | `rtex.py checar` (tipos promessa/acusacao) + crítico (teste dos 15 s) |
+| r7ex | `PADRAO.md` §2.3 e §2.5 (D25), `producao/critico-plano.md`, `prompts/bot-ficha.md`, `modelo/ficha.yaml`, `COMO-PEDIR.md` | `r7ex.py checar` (tipos promessa/acusacao, fala 7 e `cta.a/b/comentario`) + crítico do plano (teste dos 15 s) |
+| rtex | `prompts/bot-ficha.md`, `prompts/critico.md` | `rtex.py checar` (tipos promessa/acusacao; posição e abertura morna, D25) + crítico (teste dos 15 s) |
 | refazvideo | `AGENTS.md` passo 4 (re-tese da abertura, `$OUT/chamada.json`) | `checar_chamada.py --roteiro … --sem-titulo` + `critico_chamada.py` antes do avatar |
 | guia (`projetos-landing-guia`) | hero + `#resumo` | revisor |
 | portal / Telegram / Metricool | `atualiza-portal`, `postar-telegram`: título e legenda saem do `nucleo` | — |
