@@ -71,7 +71,13 @@ assunto do vídeo." (erros de digitação corrigidos)
 4. **Título em pergunta exige resposta no fecho.** Quem pergunta "o fim de X chegou?" responde com todas as letras antes
    do CTA ("A universidade não acabou. O que está acabando é a nota que só mede entrega."). Sem resposta, o título vira
    caça-clique e o público cobra nos comentários.
-5. **Pergunta na manchete só com informação logo atrás.** Quadro 0 com a pergunta pode; em até ~3 s entra a manchete
+5. **A isca faz parte do jogo (Nei, 17/11/2026).** "Tem que entender que isca faz parte do jogo, como no caso é o fim da
+   universidade, porque faz a pessoa parar para ver, e aí continuamos provocando a escada… se não, nada vai vingar nas
+   redes." Provocação forte no título, na capa e na 1ª frase ("O fim da universidade chegou?") é desejada, não defeito.
+   O crítico não pune a isca; ele cobra três coisas: (a) a escada logo depois sustenta a provocação com fato verdadeiro,
+   (b) nenhum fato é falso ou exagerado (a isca pode ser pergunta ou tese provocativa, nunca afirmação falsa), (c) o fecho
+   paga a isca (item 4).
+6. **Pergunta na manchete só com informação logo atrás.** Quadro 0 com a pergunta pode; em até ~3 s entra a manchete
    informativa (quem + o quê, ex.: "MIT E CHINA JÁ MEXERAM NA FACULDADE"), para quem vê sem som.
 
 ## 3. Regras que valem em todo motor
