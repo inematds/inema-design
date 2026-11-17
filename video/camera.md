@@ -19,6 +19,7 @@ Os limites INEMA (coluna da direita) vêm do que o Nei aprovou/reprovou e valem 
 | **Continuar** (`cont` + `from`) | mesma imagem, câmera segue de onde parou | `cont: true, from: {focus, zoom}` | único jeito de re-enquadrar a mesma imagem (EXV2:118) |
 
 ## Nunca
+- **Aproximar e afastar a mesma imagem (D22, Nei 16/11/2026: "zoom in e out rápido parece a tela tremida — na mesma imagem").** Uma imagem tem UM movimento no mesmo sentido (ou nenhum); nunca volta, nunca recomeça, nunca pulsa/respira. Padrão dos motores = câmera parada; o movimento vem da troca de imagem. Medidor comum: `explicavideos/engine/v2/tremida.py` (o `qa_viral` reprova mais de 4).
 - Punch-in ou close forte que corta o texto da ilustração (zoom 1,4–1,9 reprovado, 09/10).
 - Teto de zoom (D3, 11/10/2026): imagem COM texto (print, ilustração escrita, gráfico) ≤ 1,25× em qualquer formato, reel incluído; foto SEM texto no reel/short: punch-in até 1,4×.
 - Troca de imagem "com choque" no explicativo.

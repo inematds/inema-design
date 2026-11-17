@@ -60,3 +60,5 @@ As fontes divergem nos pontos abaixo. O kit NÃO escolheu nenhum lado. Quando de
 - L3 — Tamanho mínimo de fonte no guia e no curso v2 (só o v6 tem: 14px). **Preenchida**: leitura ≥ 14px em tudo; rótulo caixa alta ≥ 12px (DESIGN.md núcleo, 12/10/2026).
 - L4 — Paleta dos motores de vídeo próprios (mapa, palco, reais, cardshorts, reelcomenta) só existe no código. **Resolvida**: as paletas estão escritas no DESIGN.md (linha Vídeo) e o amarelo foi unificado na V7; vermelho/verde/azul de dado continuam.
 - L5 — Conjunto de ícones único (hoje: traço dourado no banner, CSS no v5, emoji/SVG no v2). **Fechada**: traço fino tipo Lucide para todo ícone desenhado; emoji conforme V10; v5 mantém CSS. (Nei, 12/10/2026)
+
+- **D22 (16/11/2026) — câmera sem vai e vem.** Nei, sobre o vídeo "fim do software": "zoom in e outro rápido, parece a tela tremida — na mesma imagem". Regra: uma imagem = um movimento num só sentido ou parada; motores com câmera parada por padrão (explicavideos 2.28.11, rtexjp 1.5.1); `tremida.py` no QA.

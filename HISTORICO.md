@@ -41,3 +41,5 @@ Cada decisão do `DECISOES.md` ganha uma linha aqui com o valor antigo. As pági
 | 13/11/2026 | D21 — vídeo no guia | Vídeo opcional ("o que existir no projeto") | Explicavideo com avatar em todo guia, 3 idiomas, entra depois de publicado (guia não espera o vídeo) | Guias publicados sem vídeo: ganham o vídeo quando o projeto for mexido |
 
 - 07/11/2026 · Logo (L1): antes não havia arquivo; a marca era só o texto "INEMA.CLUB" nas peças. Agora: os dois PNG de `marca/`.
+
+- 16/11/2026 (D22): antes, explicavideos viral fazia zoom 1,05→1,18 por foto com "pontos" que saltavam a 1,18 em 0,55 s e voltavam; diagrama aproximava 1,16 e voltava; rtexjp tinha respiração `resp` (±0,6% contínuo + tremor de abertura). Tudo removido.

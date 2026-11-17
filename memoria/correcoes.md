@@ -65,3 +65,5 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 01/10 — Global de 1 letra colidiu com script de CDN e a página parou.
 - 30/09 — Overflow medido em `file://` (falso). Medir por HTTP.
 - 29/09 — Vitrine pública com vídeo reprovado. Só o que o Nei aprovou.
+
+- 16/11/2026 — vídeo "o fim do software de escritório" (explicavideos, Codex): Nei reprovou zoom que entra e sai rápido na mesma imagem (tela tremida), texto empilhado sobre a foto e telas pretas com caixinhas. Ver D22.
