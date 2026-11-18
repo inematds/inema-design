@@ -122,6 +122,12 @@ final mal entra sobre pergunta e CTA misturando". Regras para todo reel com avat
 5. **Cada coisa na sua hora.** Quadro entra na palavra que mostra; no fecho, um elemento por vez: inema.club na fala →
    pergunta depois da última palavra → comentário.
 
+## 2d. Banco de chamadas (D28, Nei, 18/11/2026)
+
+Antes de escrever a chamada, leia `regras/banco-chamadas.md`: objetivo do produto em uma frase, 3 candidatas de moldes
+diferentes e, em kit, agente ou ferramenta, uma de **desejo de ter** ("O agente Zelador que te ajuda a melhorar teu sistema
+todo dia. Quero ele."). O crítico julga a candidata escolhida; ele não substitui esse passo.
+
 ## 3. Regras que valem em todo motor
 
 1. **Primeiros 15 s (~45 palavras):** a dor ou o desejo, falado em "você". Quem assiste sabe qual é o problema e que é com ele.
