@@ -146,6 +146,7 @@ todo dia. Quero ele."). O crítico julga a candidata escolhida; ele não substit
    Caso: em "O fim da universidade chegou?" (16/11), a sessão trocou a persona padrão e acrescentou "A pergunta de capa foi
    pedida pelo responsável editorial e deve ser preservada"; o crítico deu 9/10 e uma abertura fraca passou. Se o
    público for outro, a persona muda **no arquivo do motor, com commit** e com o motivo, nunca num script da sessão.
+   Desde a D29, o público de cada canal fica em `PUBLICO_CANAL` no `critico_chamada.py` (hoje lives7 e lives4).
    Pedido do Nei para manter uma frase vale para a frase, não para a nota: o crítico avalia a abertura inteira mesmo assim.
 
 ## 4. CTA (fecho): engajamento natural, sem pedir palavra nem link
