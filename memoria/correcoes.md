@@ -29,6 +29,7 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 08/10 — Explicativo/refazvideo: capa de impacto + prévia + "no fim: …". Prévia = escada de uma linha só, nunca sumário dos blocos (D23, 17/11).
 
 ## Vídeo — imagem, câmera, transição
+- 20/11 — Animação 3D da microexplosão (EV#193). Na v1, partículas azuis caindo: "pareceu chuva e não apareceu criar força pressão na queda". Na v2, uma massa azul em forma de bola, com frente de pressão laranja e barra de força: "preferia em vez de uma bola ser algo tipo vento fluxo como se fosse fumaça". Regra: vento/ar em animação = FLUXO de fumaça/poeira (cortina saindo da nuvem, leque explodindo no chão, rajadas riscando a cidade), nunca pontinhos nem sólido geométrico. Referências do Nei em `~/projetos/output/microexplosao-20261120-fontes/referencias-nei/`.
 - 15/10 — Avatar em tela cheia reprovado em todos os formatos: no máximo meia tela; 9:16 = meio → PiP (D8).
 - 15/10 — Fotos repetidas reprovadas (Itaipu: mesma chuva 5×): uma imagem por momento e mapa real da região (satélite) em vez de foto genérica.
 - 09/10 — Zoom 1,4–1,9 cortando texto e troca de imagem com punch: reprovados. Dissolve, imagem inteira, zoom ≤ 1,25.
