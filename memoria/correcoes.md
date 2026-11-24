@@ -47,6 +47,7 @@ Origem: Lessons de `~/projetos/wifi/CLAUDE.md`, memórias `feedback_*` e anális
 - 08/10 — Vídeo refeito sem "Fonte: …" escrito.
 
 ## Short / reel
+- 24/11 — OpenBot A/B/C: vídeo de ferramenta aberto com cena/historinha e o produto só depois; capa do B 1,9 s. Produto primeiro, curto, sem história; capa ≥ 3 s (D30).
 - 20/10 — r7ex "8 modelos novos de IA": imagens de metáfora (chip, lâmpada, dragão, tênis) sem o logo dos produtos, 2–3 nomes num painel pequeno embaixo, gancho genérico e vazamento dito com cautela = "fraco, não teve impacto, sem logo, sem texto em cada assunto". Produto citado = logo real + nome grande na tela dele (D13); lista sobe, embaixo só um título (D14); validar cada etapa por impacto (D15).
 - 07/10 — Short no YouTube não leva thumb.
 - 28/09 — Nove assuntos num short. Uma ideia por short.

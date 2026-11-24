@@ -35,6 +35,7 @@ Sem esse bloco, o motor não escreve o roteiro. Se o pedido não traz a dor nem 
 | `nome` | o nome do método como novidade | "Prompt com prova: o método que obriga a IA a mostrar o recibo." |
 | `terceiro` / `noticia` / `provocacao` | (r7ex/rtex) história de alguém, fato da semana, afirmação que cutuca | — |
 | `escada` | pergunta-tese → autoridade → ação com número → promessa em "você" (ver "Abertura em escada", D23) | "O fim da universidade chegou? Agora o MIT também questiona o modelo de educação. E a China já cancelou ou suspendeu mais de doze mil programas de graduação…" |
+| `produto` | **vídeo de ferramenta/produto (D30)**: nome do produto + o que é + o maior ganho na 1ª frase, depois a lista do que dá para fazer | "OpenBot: uma ferramenta gratuita que automatiza e organiza o seu dia." |
 
 Promessa só com o que é verdade medida.
 
@@ -127,6 +128,28 @@ final mal entra sobre pergunta e CTA misturando". Regras para todo reel com avat
 Antes de escrever a chamada, leia `regras/banco-chamadas.md`: objetivo do produto em uma frase, 3 candidatas de moldes
 diferentes e, em kit, agente ou ferramenta, uma de **desejo de ter** ("O agente Zelador que te ajuda a melhorar teu sistema
 todo dia. Quero ele."). O crítico julga a candidata escolhida; ele não substitui esse passo.
+
+## 2e. Vídeo de ferramenta = produto primeiro, curto e direto (D30, Nei, 24/11/2026)
+
+Caso: 3 vídeos do OpenBot (lives3/lives4, 24/11). Abriram com cena ("você começa o dia caçando tarefas", "você esquece
+de anotar o almoço", "você dorme…") e só mostravam o produto depois. Nei: "as pessoas querem um produto, e aí a solução;
+você conta história no vídeo, eu não acho que isso engaja, retém"; "quando fala openbot, mesmo não sabendo, chama
+atenção"; "produtos sempre curto direto sem estórias"; "é informação e não venda de um produto".
+
+Quando o vídeo é sobre uma ferramenta, app, modelo, kit ou produto (`formato: produto`):
+1. **1ª frase = NOME do produto + o que é + o maior ganho** ("OpenBot: uma ferramenta gratuita que automatiza e organiza
+   o seu dia."). O nome vem nos 2 primeiros segundos e na manchete do quadro 0.
+2. **Depois, a lista do que dá para fazer**, um benefício por frase, cada um com a prova na tela (a UI, o resultado).
+   Curto e direto: sem cena de abertura, sem personagem, sem "imagina", sem loop aberto ("já vamos voltar…").
+3. **Sem ressalva de venda na fala.** É informação, não oferta: não encher de licença, custo de servidor ou "ainda não
+   testado". Continua proibido afirmar o que é falso.
+4. O "você" (D20) entra no benefício ("organiza o SEU dia"), não numa cena.
+5. Fecho igual ao §4 (pergunta + inema.club grátis).
+6. A regra "gancho = cena de perda, nunca conceito" (refazvideo, 13/11) vale para vídeo de ASSUNTO, não de produto.
+
+**Capa ≥ 3 s (Nei, 24/11/2026: "a capa tem que esperar no mínimo 3 segundos como manchete").** Em todo vídeo, a capa do
+quadro 0 fica parada pelo menos 3 s com a manchete. No explicavideos v2 o motor segura a capa até 3 s mesmo que a 2ª deixa
+venha antes (2.x, `CAPA_MIN_S`).
 
 ## 3. Regras que valem em todo motor
 
