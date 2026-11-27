@@ -22,6 +22,9 @@ Este banco guarda o que o Nei aprovou, reprovou ou escreveu, para a ficha partir
 | Molde | Forma | Quando usar |
 |---|---|---|
 | **Desejo de ter** | "O [agente/kit com nome] que [ganho que se repete na vida da pessoa]. Quero ele." | Produto, agente, kit |
+| **Perda virada** (D20 revista) | "Pare de perder [X]." · "Você nunca mais vai sentir falta de [X]." · "Passo a passo para não perder mais [X]." | Público que já sabe do assunto (§2f) — padrão |
+| **Jeito antigo** | "Você ainda [faz X] do jeito antigo." · "Acabe com [defeito]." | Público que já sabe; método novo |
+| **Autoridade + feito** | "[Quem de peso] mostrou como [ganho]." + promessa em "você" na frase seguinte | Fonte oficial, engenheiro, empresa |
 | Promessa com condição | "O seu [X] nunca mais vai [problema] se não [condição]." | Método com garantia verificável |
 | Escada | Pergunta-tese → autoridade → número → promessa em "você" | Notícia, tendência |
 | Contrário com posição | Ordem curta + opinião do Nei em 1ª pessoa | Tese do Nei contra o que todos fazem |
@@ -31,6 +34,7 @@ Este banco guarda o que o Nei aprovou, reprovou ou escreveu, para a ficha partir
 
 | Data | Peça | Chamada | Molde | Por que funciona |
 |---|---|---|---|---|
+| 27/11/2026 | Tokens (exemplo do Nei) | "Pare de perder tokens." · "Os engenheiros da Anthropic falando como reduzir a perda de tokens." · "Você nunca mais vai sentir falta dos seus tokens." | Perda virada / Autoridade | Quem já usa sabe da dor; a chamada vende o fim dela |
 | 18/11/2026 | Zelador | "O agente Zelador que te ajuda a melhorar teu sistema todo dia. Quero ele." | Desejo de ter | Nome + ganho diário; vende ter o agente, não o medo da falha |
 | 17/11/2026 | Universidade | "O fim da universidade chegou? Agora o MIT também questiona o modelo de educação…" | Escada | Isca forte sustentada por fato |
 | 17/11/2026 | Enxames | "ESQUEÇA OS ENXAMES" + "faz um ano que eu falo disso: a ideia é boa, mas o custo é proibitivo" | Contrário com posição | Ordem curta e opinião dele |

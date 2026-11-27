@@ -12,7 +12,9 @@ título do tópico no Telegram, card do portal, legenda do IG/TikTok, H1 + lead 
 
 | Campo | O que é | Exemplo (escrita-e-engenharia) |
 |---|---|---|
-| `dor_ou_desejo` | `dor` ou `desejo`: o que mexe com a pessoa | dor |
+| `publico_ja_sabe` | `sim` ou `nao`: quem assiste já vive o assunto? (§2f, D20 revista 27/11) | sim |
+| `dor_ou_desejo` | `dor` ou `desejo`: o que mexe com a pessoa. Com `publico_ja_sabe: sim` o padrão é `desejo` | desejo |
+| `por_que_dor` | só quando `publico_ja_sabe: sim` e mesmo assim a abertura descreve a dor: por que aqui ela move | — |
 | `quem` | a pessoa, em "você" | você, que pede coisa para a IA ou monta agente |
 | `nucleo` | uma frase: o que a pessoa ganha ou deixa de perder, em língua de gente | "O seu agente nunca mais vai dizer pronto se não tiver provado. É isso que este método e este kit fazem. Vou explicar como." |
 | `por_que_importa` | o que custa hoje, concreto, sem número inventado | "Ele diz 'agendado', o cliente chega e não tem horário." |
@@ -29,7 +31,9 @@ Sem esse bloco, o motor não escreve o roteiro. Se o pedido não traz a dor nem 
 | `acusacao` | revela o que está acontecendo com a pessoa | "Seu agente mente pra você. Diz que fez e não fez." |
 | `promessa` | o ganho, com a garantia verdadeira | "O seu agente nunca mais vai dizer pronto se não tiver provado. É isso que este método faz." |
 | `perda` | o que se perde (real ou hipotético) | "Ele disse 'agendado'. O cliente chegou e não tinha horário." |
-| `contrario` | manda parar o que todo mundo faz | "Pare de pedir 'capriche e me avise'." |
+| `contrario` | manda parar o que todo mundo faz, ou "você ainda faz do jeito antigo" | "Pare de pedir 'capriche e me avise'." · "Você ainda usa o Claude do jeito antigo." |
+| `fim_da_perda` | **(§2f)** a perda pelo outro lado: o que a pessoa para de perder, de pagar, de esperar | "Pare de perder tokens." · "Você nunca mais vai sentir falta dos seus tokens." |
+| `autoridade` | **(§2f)** alguém de peso que resolveu + o feito, depois a promessa em "você" | "Os engenheiros da Anthropic mostraram como reduzir a perda de tokens." |
 | `numero` / `estatistica` | número com fonte, que dá medo ou espanto | "O mesmo pedido: nota zero de oito. Com uma mudança, oito de oito." |
 | `pergunta` | pergunta sobre a vida da pessoa | "Quantas vezes a IA te disse 'feito' sem ter feito?" |
 | `nome` | o nome do método como novidade | "Prompt com prova: o método que obriga a IA a mostrar o recibo." |
@@ -151,9 +155,51 @@ Quando o vídeo é sobre uma ferramenta, app, modelo, kit ou produto (`formato: 
 quadro 0 fica parada pelo menos 3 s com a manchete. No explicavideos v2 o motor segura a capa até 3 s mesmo que a 2ª deixa
 venha antes (2.x, `CAPA_MIN_S`).
 
+## 2f. Quem já sabe do assunto: a perda pelo outro lado, não a dor descrita (D20 revista, Nei, 27/11/2026)
+
+Nei: "a chamada tem que ser o desejo das pessoas… como as pessoas já sabem do assunto, não é a dor que move, e sim o
+desejo, a provocação, a perda. Por exemplo: 'para de perder tokens', ou 'engenheiros da Anthropic falando como reduzir a
+perda de tokens'. Isso não é falar da dor, mas é a dor pelo outro lado. 'Passo a passo para não perder seus tokens', ou
+'nunca mais vai sentir falta dos teus tokens'." (erros de digitação corrigidos)
+
+**O que os dados mostram (youtube-bombando, 27/11/2026).** São 2.109 vídeos de IA acompanhados desde agosto, com as views
+divididas pela mediana do próprio canal. Nos ~60 que mais furaram a bolha, **nenhum título abre descrevendo o sofrimento**.
+Os maiores:
+- fim da perda / ganho sem custo: "Claude Code Just Became 100% FREE (7.4 Billion Tokens)" 190×, "Goodbye Subscription!" 131×,
+  "Forget Claude Pro!" 77×, "STOP PAYING FOR GROKBOT! Meet OpenBot" 44×;
+- contrário: "(Acabe com a cara de IA)" 332×, "Você ainda usa o Claude do jeito antigo" 62×, "Nunca te ensinaram Claude Code
+  assim" 40×;
+- autoridade + feito: a fala que abre com "Um dos engenheiros de IA mais respeitados do mundo criou o seu próprio YouTube em
+  duas horas com um prompt de três linhas…" (Karpathy, 62×) e "Rethinking Claude Code Best Practices — Lydia Hallie,
+  Anthropic" (38×);
+- promessa com prazo: "Give Me 13 Minutes and I'll Make You Disgustingly Good With Claude" 57×.
+
+Onde a dor aparece (OpenBot 44×: "o Grokbot é ótimo, mas é caro… o plano de 30 dólares acaba rápido"), ela dura duas
+frases e já vira a saída ("por isso vou te dar uma opção gratuita"). Amostra: títulos + fala dos primeiros 20 s de 9
+vídeos; sem thumb e sem retenção medida.
+
+**Regra.** Antes da chamada, responda `publico_ja_sabe`:
+1. **`sim`** (quem assiste já vive o problema: usa Claude/Codex, gasta token, roda agente, automatiza). A abertura e o título
+   pegam a dor **pelo outro lado**, nesta ordem de preferência:
+   1. `fim_da_perda`: o que a pessoa para de perder, pagar ou esperar ("Pare de perder tokens", "Você nunca mais vai
+      sentir falta dos seus tokens", "Passo a passo para não perder mais seus tokens");
+   2. `contrario`: "você ainda faz do jeito antigo", "acabe com…", "pare de…";
+   3. `autoridade`: alguém de peso resolveu ("Os engenheiros da Anthropic mostraram como reduzir a perda de tokens"), e
+      na frase seguinte a promessa em "você";
+   4. `promessa` com prazo ou condição, e `produto` (§2e) para ferramenta.
+   **Dor descrita** (`acusacao`/`perda` em cena: "você gasta tokens demais e isso frustra") **só com `por_que_dor`
+   preenchido**. Mesmo assim ela dura no máximo 2 frases e a 3ª já é a saída.
+2. **`nao`** (a pessoa ainda não sabe que tem o problema: gestor leigo, profissional liberal, quem não programa). Aí a cena
+   de perda dos §2–3 continua valendo: primeiro ela descobre que é com ela, depois vem o desejo.
+
+Padrão por canal, quando o pedido não diz: `sim` em lives1, lives4, lives7 e nos grupos CCODE/AGENTES/LLMS; `nao` em
+lives2, lives8, lives12 e lives24; lives3 e lives11 decidem pelo assunto (ferramenta que o público já usa = `sim`).
+O crítico (explicavideos `checar_chamada.py` 2.36.15) barra `publico_ja_sabe: sim` + dor descrita sem `por_que_dor`.
+
 ## 3. Regras que valem em todo motor
 
 1. **Primeiros 15 s (~45 palavras):** a dor ou o desejo, falado em "você". Quem assiste sabe qual é o problema e que é com ele.
+   Para quem já sabe do assunto, a dor vem pelo outro lado (fim da perda, contrário, autoridade), nunca descrita em cena (§2f).
 2. **Método nomeado (quando houver `metodo`):** o nome é dito até ~20 s e volta pelo menos mais 1 vez (de preferência no fecho).
 3. **Inventário não é chamada:** "8 frases", "9 soluções", "N técnicas" não vão no título, na manchete nem no H1. Número de FATO
    (nota 0/8 → 8/8, 47 testes) pode; contagem do que tem no kit, não.
