@@ -194,7 +194,7 @@ vídeos; sem thumb e sem retenção medida.
 
 Padrão por canal, quando o pedido não diz: `sim` em lives1, lives4, lives7 e nos grupos CCODE/AGENTES/LLMS; `nao` em
 lives2, lives8, lives12 e lives24; lives3 e lives11 decidem pelo assunto (ferramenta que o público já usa = `sim`).
-O crítico (explicavideos `checar_chamada.py` e `critico_chamada.py` 2.37.15 (pergunta 9 `virada`)) barra `publico_ja_sabe: sim` + dor descrita sem `por_que_dor`.
+O crítico (explicavideos `checar_chamada.py` e `critico_chamada.py` 2.37.15 (pergunta 9 `virada`; refazvideo 1.9.1 usa os dois), r7ex 1.12.9 e rtex 1.13.2 barram `publico_ja_sabe: sim` + dor descrita sem `por_que_dor`.
 
 ## 3. Regras que valem em todo motor
 
